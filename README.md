@@ -29,6 +29,22 @@ Como o projeto utiliza puramente **HTML5, CSS3 e JavaScript (Vanilla)**, não é
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
 3. Para uma experiência ideal, utilize o **Live Server** ou similar, ou simplesmente arraste o arquivo para o seu browser.
 
+## 📱 Uso no Celular (Offline)
+Este aplicativo foi transformado em um **PWA (Progressive Web App)**, o que permite que ele funcione sem internet após o primeiro acesso.
+
+### Como instalar:
+1. **Hospedagem**: Coloque os arquivos em um servidor (pode ser o [GitHub Pages](https://pages.github.com/), [Vercel](https://vercel.com/), ou até um servidor local na sua rede Wi-Fi).
+2. **Primeiro Acesso**: Acesse o link pelo navegador do celular (**Chrome** no Android ou **Safari** no iOS).
+3. **Adicionar à Tela de Início**:
+   - No **Android (Chrome)**: Toque nos três pontinhos e selecione "Instalar aplicativo" ou "Adicionar à tela inicial".
+   - No **iOS (Safari)**: Toque no botão de "Compartilhar" (quadrado com seta) e selecione "Adicionar à Tela de Início".
+4. **Pronto!**: Agora o ícone do Simulado aparecerá no seu celular e você poderá abrir e estudar mesmo se estiver **totalmente sem internet**.
+
+## 🛠️ Detalhes do PWA
+- **Manifest**: Arquivo `manifest.json` define o nome, cores e ícones na tela inicial.
+- **Service Worker**: O arquivo `sw.js` gerencia o cache dos arquivos, garantindo que o app carregue instantaneamente mesmo offline.
+- **Ícones Customizados**: O app possui ícones próprios gerados para uma aparência premium.
+
 ## 📱 Tecnologias Utilizadas
 - **HTML5**: Estrutura semântica e acessível.
 - **CSS3**: Estilização moderna com variáveis (Design System), Flexbox e Grid.
