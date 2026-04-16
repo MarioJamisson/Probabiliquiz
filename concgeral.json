@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "category": "Língua Portuguesa",
+    "question": "Assinale a alternativa em que o emprego do sinal indicativo de crase está CORRETO:",
+    "options": [
+      "O relatório foi entregue à ele ontem.",
+      "A loja funciona de segunda à sexta-feira.",
+      "Refiro-me à professora de matemática.",
+      "Estamos dispostos à colaborar com o projeto."
+    ],
+    "answer": 2,
+    "justification": "A crase está correta em 'à professora' pois há a fusão da preposição 'a' (exigida pelo verbo referir-se) com o artigo definido feminino 'a' (professora). Não ocorre crase antes de pronomes pessoais (ele), palavras masculinas, verbos (colaborar) ou em expressões de 'a' a 'a' sem artigo."
+  },
+  {
+    "id": 2,
+    "category": "Língua Portuguesa",
+    "question": "Em relação à concordância verbal, assinale a frase correta:",
+    "options": [
+      "Fazem três anos que não viajo para o exterior.",
+      "Haverão muitas mudanças na empresa no próximo mês.",
+      "Precisa-se de novos funcionários para o setor de vendas.",
+      "Aluga-se apartamentos nesta região."
+    ],
+    "answer": 2,
+    "justification": "A frase 'Precisa-se de novos funcionários' está correta porque o verbo é transitivo indireto (acompanhado de preposição 'de'), mantendo-se no singular (índice de indeterminação do sujeito). O correto seria 'Faz três anos', 'Haverá muitas mudanças' e 'Alugam-se apartamentos'."
+  },
+  {
+    "id": 3,
+    "category": "Língua Portuguesa",
+    "question": "Qual é a figura de linguagem presente na frase: 'O jardim chorava a ausência de seu dono'?",
+    "options": [
+      "Metáfora",
+      "Metonímia",
+      "Prosopopeia (Personificação)",
+      "Hipérbole"
+    ],
+    "answer": 2,
+    "justification": "Prosopopeia ou personificação é a atribuição de qualidades e sentimentos humanos a seres irracionais ou inanimados (o jardim 'chorava')."
+  },
+  {
+    "id": 4,
+    "category": "Língua Portuguesa",
+    "question": "A palavra 'porquê' está grafada corretamente em:",
+    "options": [
+      "Não sei porquê ela faltou à reunião.",
+      "Você está triste por quê?",
+      "O diretor não explicou o porque da demissão.",
+      "Estudo porque quero passar no concurso."
+    ],
+    "answer": 3,
+    "justification": "'Porque' (junto e sem acento) é usado em respostas e explicações (conjunção explicativa ou causal). 'Por quê' no final da frase deve ter acento. 'O porquê' deve ser junto e com acento (substantivo)."
+  },
+  {
+    "id": 5,
+    "category": "Língua Portuguesa",
+    "question": "De acordo com as regras de acentuação gráfica, qual par de palavras é acentuado pela mesma regra?",
+    "options": [
+      "História e Água",
+      "Médico e Cílios",
+      "Saúde e Máquina",
+      "Amável e Lâmpada"
+    ],
+    "answer": 0,
+    "justification": "Tanto 'História' quanto 'Água' são palavras paroxítonas terminadas em ditongo crescente, logo, seguem a mesma regra de acentuação."
+  },
+  {
+    "id": 6,
+    "category": "Língua Portuguesa",
+    "question": "Na frase 'Ele comprou o carro QUE sempre sonhou', o termo 'que' atua morfologicamente como:",
+    "options": [
+      "Conjunção integrante",
+      "Pronome relativo",
+      "Preposição",
+      "Partícula expletiva"
+    ],
+    "answer": 1,
+    "justification": "O 'que' é um pronome relativo pois substitui o termo antecedente 'carro' (Ele comprou o carro, ele sempre sonhou com o carro)."
+  },
+  {
+    "id": 7,
+    "category": "Língua Portuguesa",
+    "question": "Em relação à regência nominal, qual expressão está gramaticalmente correta?",
+    "options": [
+      "Estou ansioso por viajar.",
+      "Ele tem aversão por políticos.",
+      "O projeto é compatível a nossas metas.",
+      "Sou favorável por essa decisão."
+    ],
+    "answer": 0,
+    "justification": "A regência de 'ansioso' aceita a preposição 'por' (ou 'para'). O correto seria aversão 'a', compatível 'com' e favorável 'a'."
+  },
+  {
+    "id": 8,
+    "category": "Língua Portuguesa",
+    "question": "Assinale a alternativa onde a vírgula foi empregada para separar um aposto:",
+    "options": [
+      "João, o melhor aluno da turma, foi premiado.",
+      "Maria, venha cá imediatamente!",
+      "Comprei arroz, feijão, carne e salada.",
+      "Apesar da chuva, o jogo aconteceu."
+    ],
+    "answer": 0,
+    "justification": "'o melhor aluno da turma' é um termo explicativo que se refere ao substantivo anterior (João), caracterizando-se como aposto explicativo, que deve vir entre vírgulas."
+  },
+  {
+    "id": 9,
+    "category": "Língua Portuguesa",
+    "question": "Identifique a alternativa que apresenta um sinônimo perfeito para a palavra 'Eficaz':",
+    "options": [
+      "Demorado",
+      "Proficiente",
+      "Obsoleto",
+      "Inócuo"
+    ],
+    "answer": 1,
+    "justification": "Proficiente (competente, capaz de produzir o efeito desejado) é sinônimo de eficaz. Inócuo significa inofensivo; obsoleto é ultrapassado."
+  },
+  {
+    "id": 10,
+    "category": "Língua Portuguesa",
+    "question": "Em 'Vende-se casa', a partícula 'se' classifica-se como:",
+    "options": [
+      "Índice de indeterminação do sujeito",
+      "Partícula apassivadora",
+      "Pronome reflexivo",
+      "Conjunção condicional"
+    ],
+    "answer": 1,
+    "justification": "Como o verbo 'vender' é transitivo direto, a partícula 'se' atua como pronome apassivador (a frase equivale a 'Casa é vendida'). 'Casa' é o sujeito paciente."
+  },
+  {
+    "id": 11,
+    "category": "Raciocínio Lógico",
+    "question": "Dada a proposição p: 'Está chovendo' e q: 'Levo o guarda-chuva', a estrutura lógica 'Se está chovendo, então levo o guarda-chuva' é representada por:",
+    "options": [
+      "p ∧ q",
+      "p ∨ q",
+      "p → q",
+      "p ↔ q"
+    ],
+    "answer": 2,
+    "justification": "A conectiva 'Se... então...' é a condicional, representada pelo símbolo da seta '→' (p → q)."
+  },
+  {
+    "id": 12,
+    "category": "Raciocínio Lógico",
+    "question": "A negação lógica da proposição 'João é médico e Maria é advogada' é:",
+    "options": [
+      "João não é médico e Maria não é advogada.",
+      "João não é médico ou Maria não é advogada.",
+      "Se João não é médico, então Maria não é advogada.",
+      "João é médico ou Maria não é advogada."
+    ],
+    "answer": 1,
+    "justification": "Pelas Leis de De Morgan, a negação de uma conjunção (p ∧ q) é a disjunção das negações (~p ∨ ~q): 'João NÃO é médico OU Maria NÃO é advogada'."
+  },
+  {
+    "id": 13,
+    "category": "Raciocínio Lógico",
+    "question": "A equivalência lógica (contrapositiva) da proposição 'Se chove, então a rua fica molhada' é:",
+    "options": [
+      "Se não chove, então a rua não fica molhada.",
+      "Chove e a rua não fica molhada.",
+      "A rua fica molhada se, e somente se, chove.",
+      "Se a rua não fica molhada, então não chove."
+    ],
+    "answer": 3,
+    "justification": "A contrapositiva de 'p → q' é '~q → ~p'. Inverte-se a ordem das proposições e nega-se ambas."
+  },
+  {
+    "id": 14,
+    "category": "Raciocínio Lógico",
+    "question": "Em um grupo de 100 pessoas, 60 falam inglês, 50 falam espanhol e 20 não falam nenhum dos dois idiomas. Quantas pessoas falam ambos os idiomas?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "answer": 2,
+    "justification": "Se 20 não falam nada, 80 pessoas falam algum idioma. A soma (Inglês + Espanhol) é 60 + 50 = 110. A interseção (quem fala os dois) é 110 - 80 = 30."
+  },
+  {
+    "id": 15,
+    "category": "Raciocínio Lógico",
+    "question": "Qual é o próximo número da sequência lógica: 2, 6, 12, 20, 30... ?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "50"
+    ],
+    "answer": 2,
+    "justification": "A diferença entre os números aumenta de 2 em 2: (+4, +6, +8, +10). A próxima diferença será +12. Então, 30 + 12 = 42. (Ou n² + n, onde n é a posição)."
+  },
+  {
+    "id": 16,
+    "category": "Raciocínio Lógico",
+    "question": "Uma televisão custa R$ 2.000,00. Se for comprada à vista, há um desconto de 15%. Qual o valor pago à vista?",
+    "options": [
+      "R$ 1.600,00",
+      "R$ 1.700,00",
+      "R$ 1.850,00",
+      "R$ 1.985,00"
+    ],
+    "answer": 1,
+    "justification": "15% de 2000 é 300. Subtraindo o desconto do valor total: 2000 - 300 = R$ 1.700,00."
+  },
+  {
+    "id": 17,
+    "category": "Raciocínio Lógico",
+    "question": "Em uma tabela verdade clássica da proposição condicional (P → Q), em qual caso a proposição será FALSA?",
+    "options": [
+      "P é verdadeira e Q é verdadeira.",
+      "P é falsa e Q é verdadeira.",
+      "P é verdadeira e Q é falsa.",
+      "P é falsa e Q é falsa."
+    ],
+    "answer": 2,
+    "justification": "A condicional só é falsa quando a condição (P) é atingida (verdadeira) mas o resultado prometido (Q) não ocorre (falsa). A famosa regra da 'Vera Fischer' (V → F = F)."
+  },
+  {
+    "id": 18,
+    "category": "Raciocínio Lógico",
+    "question": "Se três torneiras iguais enchem um tanque em 4 horas, em quanto tempo 4 dessas mesmas torneiras encheriam o mesmo tanque?",
+    "options": [
+      "2 horas",
+      "3 horas",
+      "5 horas",
+      "6 horas"
+    ],
+    "answer": 1,
+    "justification": "Grandezas inversamente proporcionais (mais torneiras = menos tempo). 3 torneiras * 4 horas = 12 horas de trabalho total. Dividindo por 4 torneiras = 3 horas."
+  },
+  {
+    "id": 19,
+    "category": "Raciocínio Lógico",
+    "question": "Qual a probabilidade de se obter um número par ao lançar um dado não viciado de 6 faces?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 2,
+    "justification": "Os números pares no dado são 3 (2, 4 e 6) em um total de 6 possibilidades. Probabilidade = 3/6, que simplificado é 1/2 (50%)."
+  },
+  {
+    "id": 20,
+    "category": "Raciocínio Lógico",
+    "question": "Quantos anagramas possui a palavra 'ROMA'?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "answer": 3,
+    "justification": "Como a palavra tem 4 letras distintas, o número de anagramas é a permutação simples P(4) = 4! (4 fatorial) = 4 * 3 * 2 * 1 = 24."
+  },
+  {
+    "id": 21,
+    "category": "Direito Constitucional",
+    "question": "Qual Remédio Constitucional é concedido para proteger o direito de locomoção (ir e vir) contra ilegalidade ou abuso de poder?",
+    "options": [
+      "Mandado de Segurança",
+      "Habeas Data",
+      "Habeas Corpus",
+      "Ação Popular"
+    ],
+    "answer": 2,
+    "justification": "O Habeas Corpus (Art. 5º, LXVIII, da CF) é o remédio específico para proteger a liberdade de locomoção sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação."
+  },
+  {
+    "id": 22,
+    "category": "Direito Constitucional",
+    "question": "De acordo com o Art. 1º da Constituição Federal, são Fundamentos da República Federativa do Brasil, EXCETO:",
+    "options": [
+      "A soberania",
+      "A cidadania",
+      "A erradicação da pobreza",
+      "A dignidade da pessoa humana"
+    ],
+    "answer": 2,
+    "justification": "A 'erradicação da pobreza' não é um fundamento (Socidivaplu), mas sim um dos Objetivos Fundamentais da República (Art. 3º)."
+  },
+  {
+    "id": 23,
+    "category": "Direito Constitucional",
+    "question": "A Constituição Federal de 1988 estabelece que são Poderes da União, independentes e harmônicos entre si:",
+    "options": [
+      "Executivo, Legislativo e Moderador",
+      "Legislativo, Executivo e Judiciário",
+      "Executivo, Judiciário e Ministério Público",
+      "Militar, Legislativo e Judiciário"
+    ],
+    "answer": 1,
+    "justification": "Segundo o Art. 2º da Constituição Federal, os poderes da União são o Legislativo, o Executivo e o Judiciário. O poder Moderador não existe no Brasil republicano."
+  },
+  {
+    "id": 24,
+    "category": "Direito Constitucional",
+    "question": "Qual é a idade mínima constitucional exigida para que um cidadão possa se candidatar e assumir o cargo de Presidente da República?",
+    "options": [
+      "21 anos",
+      "30 anos",
+      "35 anos",
+      "40 anos"
+    ],
+    "answer": 2,
+    "justification": "O Art. 14, § 3º, inciso VI, da CF estabelece a idade mínima de 35 anos para Presidente e Vice-Presidente da República e Senador."
+  },
+  {
+    "id": 25,
+    "category": "Direito Constitucional",
+    "question": "O remédio constitucional utilizado para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes em bancos de dados governamentais é o:",
+    "options": [
+      "Habeas Data",
+      "Mandado de Injunção",
+      "Ação Civil Pública",
+      "Habeas Corpus"
+    ],
+    "answer": 0,
+    "justification": "O Habeas Data destina-se a garantir o acesso a informações pessoais do próprio impetrante ou para a retificação desses dados (Art. 5º, LXXII)."
+  },
+  {
+    "id": 26,
+    "category": "Direito Constitucional",
+    "question": "Em regra, os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos em lei. O acesso ocorre mediante:",
+    "options": [
+      "Indicação política para todos os cargos",
+      "Concurso público de provas ou de provas e títulos",
+      "Apenas concurso público de provas",
+      "Processo seletivo simplificado por currículo"
+    ],
+    "answer": 1,
+    "justification": "Art. 37, II da CF: a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos."
+  },
+  {
+    "id": 27,
+    "category": "Direito Constitucional",
+    "question": "Qual órgão de cúpula do Poder Judiciário tem como função principal a guarda da Constituição Federal?",
+    "options": [
+      "Superior Tribunal de Justiça (STJ)",
+      "Supremo Tribunal Federal (STF)",
+      "Tribunal Superior Eleitoral (TSE)",
+      "Conselho Nacional de Justiça (CNJ)"
+    ],
+    "answer": 1,
+    "justification": "Compete ao Supremo Tribunal Federal (STF), precipuamente, a guarda da Constituição, conforme o Art. 102 da CF."
+  },
+  {
+    "id": 28,
+    "category": "Direito Constitucional",
+    "question": "Conforme a Constituição, os Direitos Sociais incluem a educação, a saúde, o trabalho, a moradia, entre outros. Onde estão listados explicitamente esses direitos?",
+    "options": [
+      "Artigo 1º",
+      "Artigo 5º",
+      "Artigo 6º",
+      "Artigo 144"
+    ],
+    "answer": 2,
+    "justification": "Os direitos sociais estão expressamente listados no caput do Artigo 6º da Constituição Federal."
+  },
+  {
+    "id": 29,
+    "category": "Direito Constitucional",
+    "question": "O princípio constitucional que exige que o administrador público aja de forma neutra, sem favorecer ou prejudicar pessoas específicas, é o Princípio da:",
+    "options": [
+      "Legalidade",
+      "Impessoalidade",
+      "Publicidade",
+      "Eficiência"
+    ],
+    "answer": 1,
+    "justification": "O princípio da Impessoalidade (previsto no Art. 37) proíbe que o ato administrativo seja praticado visando interesses pessoais, devendo buscar sempre o interesse público."
+  },
+  {
+    "id": 30,
+    "category": "Direito Constitucional",
+    "question": "Segundo a CF/88, o direito de greve no serviço público será exercido:",
+    "options": [
+      "De forma irrestrita por todos os servidores.",
+      "Nos termos e limites definidos em lei específica.",
+      "Apenas pelos servidores da saúde e segurança.",
+      "Nunca, pois é proibido constitucionalmente."
+    ],
+    "answer": 1,
+    "justification": "O Art. 37, VII, da CF prevê que o direito de greve do servidor civil será exercido nos termos e limites definidos em lei específica (embora militares sejam proibidos)."
+  },
+  {
+    "id": 31,
+    "category": "Direito Administrativo",
+    "question": "Os princípios básicos da Administração Pública, expressos no Art. 37 da Constituição e base do Direito Administrativo, são representados pelo mnemônico LIMPE. Quais são eles?",
+    "options": [
+      "Lealdade, Integridade, Moralidade, Pessoalidade, Eficiência",
+      "Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência",
+      "Legitimidade, Imparcialidade, Motivação, Publicidade, Eficácia",
+      "Legalidade, Igualdade, Moderação, Probidade, Eficiência"
+    ],
+    "answer": 1,
+    "justification": "LIMPE: Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência são os 5 princípios expressos constitucionais da Administração Pública."
+  },
+  {
+    "id": 32,
+    "category": "Direito Administrativo",
+    "question": "O poder conferido à Administração Pública para aplicar penalidades aos seus servidores e àqueles que possuem vínculo especial com o Estado é o:",
+    "options": [
+      "Poder de Polícia",
+      "Poder Hierárquico",
+      "Poder Disciplinar",
+      "Poder Normativo"
+    ],
+    "answer": 2,
+    "justification": "O Poder Disciplinar é a prerrogativa de punir internamente servidores e particulares com vínculo específico. O Poder de Polícia pune particulares em geral."
+  },
+  {
+    "id": 33,
+    "category": "Direito Administrativo",
+    "question": "São elementos (ou requisitos) de validade do Ato Administrativo (mnemônico COFIFOMOB):",
+    "options": [
+      "Competência, Finalidade, Forma, Motivo, Objeto",
+      "Conveniência, Finalidade, Formalidade, Motivação, Oportunidade",
+      "Competência, Firmeza, Força, Motivo, Ordem",
+      "Concessão, Finalidade, Forma, Mérito, Objeto"
+    ],
+    "answer": 0,
+    "justification": "Para um ato ser válido ele precisa preencher 5 requisitos: Competência (quem faz), Finalidade (para que), Forma (como), Motivo (por que) e Objeto (o que)."
+  },
+  {
+    "id": 34,
+    "category": "Direito Administrativo",
+    "question": "Qual das entidades abaixo faz parte da Administração Pública INDIRETA?",
+    "options": [
+      "Ministério da Saúde",
+      "Polícia Federal",
+      "Autarquia",
+      "Secretaria Estadual de Educação"
+    ],
+    "answer": 2,
+    "justification": "A Administração Indireta é composta pelas entidades descentralizadas: Autarquias (ex: INSS, IFCE), Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista."
+  },
+  {
+    "id": 35,
+    "category": "Direito Administrativo",
+    "question": "O atributo do ato administrativo que permite à Administração executá-lo diretamente, empregando inclusive a força física se necessário, sem precisar de autorização judicial prévia, é a:",
+    "options": [
+      "Presunção de Legitimidade",
+      "Imperatividade",
+      "Autoexecutoriedade",
+      "Tipicidade"
+    ],
+    "answer": 2,
+    "justification": "A Autoexecutoriedade é o atributo que permite à administração executar seus próprios atos (como rebocar um carro irregular) sem pedir permissão a um juiz."
+  },
+  {
+    "id": 36,
+    "category": "Direito Administrativo",
+    "question": "Segundo a teoria adotada no Brasil, a responsabilidade civil do Estado pelos danos causados por seus agentes a terceiros é, em regra:",
+    "options": [
+      "Subjetiva, dependendo de prova de dolo.",
+      "Objetiva, não dependendo de prova de culpa ou dolo do agente.",
+      "Subsidiária apenas.",
+      "Inexistente, o Estado é irresponsável."
+    ],
+    "answer": 1,
+    "justification": "O Brasil adota a teoria da responsabilidade objetiva (Risco Administrativo). O cidadão só precisa provar o dano, a ação do Estado e o nexo causal entre eles, não precisando provar que o agente teve culpa."
+  },
+  {
+    "id": 37,
+    "category": "Direito Administrativo",
+    "question": "A anulação de um ato administrativo ocorre quando este é:",
+    "options": [
+      "Legal, mas inconveniente ao interesse público.",
+      "Ilegal, ou seja, contém vício de validade.",
+      "Aplicado a particulares, mas não a servidores.",
+      "Revogado pelo Poder Judiciário por conveniência."
+    ],
+    "answer": 1,
+    "justification": "A anulação decorre de controle de legalidade (o ato é ilegal). A revogação decorre de controle de mérito (o ato é legal, mas deixou de ser oportuno e conveniente)."
+  },
+  {
+    "id": 38,
+    "category": "Direito Administrativo",
+    "question": "Qual princípio da nova Lei de Licitações (Lei 14.133/2021) determina que a Administração deve buscar a proposta mais vantajosa e o menor custo no ciclo de vida do objeto?",
+    "options": [
+      "Princípio da Transparência",
+      "Princípio da Segregação de Funções",
+      "Princípio da Economicidade",
+      "Princípio do Julgamento Objetivo"
+    ],
+    "answer": 2,
+    "justification": "A Economicidade orienta a licitação a selecionar a proposta que represente o menor custo-benefício financeiro e estrutural para o ente público."
+  },
+  {
+    "id": 39,
+    "category": "Direito Administrativo",
+    "question": "O poder que a Administração tem de estruturar seus órgãos, distribuir competências e fiscalizar o trabalho dos seus subordinados é o:",
+    "options": [
+      "Poder Regulamentar",
+      "Poder Disciplinar",
+      "Poder de Polícia",
+      "Poder Hierárquico"
+    ],
+    "answer": 3,
+    "justification": "O Poder Hierárquico é o poder de organização interna, que permite delegar, avocar, ordenar e fiscalizar a subordinação entre os órgãos públicos."
+  },
+  {
+    "id": 40,
+    "category": "Direito Administrativo",
+    "question": "Sociedades de Economia Mista (como o Banco do Brasil) diferem das Empresas Públicas (como a Caixa) principalmente em relação a:",
+    "options": [
+      "Seu objetivo, pois uma busca lucro e a outra não.",
+      "Composição do capital e forma societária.",
+      "Ao regime de contratação (CLT vs Estatutário).",
+      "Obrigatoriedade de realizar concurso público."
+    ],
+    "answer": 1,
+    "justification": "As Sociedades de Economia Mista são sempre S/A e possuem capital público e privado. As Empresas Públicas podem adotar qualquer forma societária e o capital é 100% público."
+  },
+  {
+    "id": 41,
+    "category": "Informática",
+    "question": "Na segurança da informação, um software malicioso que restringe o acesso ao sistema ou aos arquivos do usuário, cobrando um resgate (geralmente em criptomoedas) para liberar o acesso, é conhecido como:",
+    "options": [
+      "Trojan",
+      "Keylogger",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": 2,
+    "justification": "Ransomware (de 'ransom' = resgate) é o tipo de malware de sequestro de dados que criptografa os arquivos do usuário até que o resgate seja pago."
+  },
+  {
+    "id": 42,
+    "category": "Informática",
+    "question": "No sistema operacional Microsoft Windows, o atalho de teclado universal para bloquear a sessão atual (Lock) do usuário rapidamente é:",
+    "options": [
+      "Ctrl + Shift + Esc",
+      "Windows + L",
+      "Alt + Tab",
+      "Windows + D"
+    ],
+    "answer": 1,
+    "justification": "A tecla Windows + L (Lock) bloqueia imediatamente o computador, exigindo a senha para retornar."
+  },
+  {
+    "id": 43,
+    "category": "Informática",
+    "question": "No Microsoft Excel, se a célula A1 possui o valor 10 e a célula B1 possui o valor 20, qual será o resultado da fórmula =MÉDIA(A1:B1)?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "30"
+    ],
+    "answer": 1,
+    "justification": "A função MÉDIA soma os valores (10+20 = 30) e divide pela quantidade de células selecionadas (2). 30 / 2 = 15."
+  },
+  {
+    "id": 44,
+    "category": "Informática",
+    "question": "Qual é a principal diferença de funcionalidade entre os protocolos HTTP e HTTPS em redes de computadores?",
+    "options": [
+      "O HTTPS é mais lento e usado apenas para transferência de arquivos grandes.",
+      "O HTTPS adiciona uma camada de segurança por criptografia (SSL/TLS) aos dados trafegados.",
+      "O HTTP não consegue abrir imagens, apenas texto.",
+      "O HTTPS funciona apenas em Intranets corporativas."
+    ],
+    "answer": 1,
+    "justification": "O 'S' final significa 'Secure'. O HTTPS utiliza certificados SSL/TLS para criptografar a comunicação entre o navegador e o servidor web."
+  },
+  {
+    "id": 45,
+    "category": "Informática",
+    "question": "O que são 'Cookies' no contexto da navegação na Internet?",
+    "options": [
+      "Pequenos arquivos de texto salvos pelo navegador que armazenam informações sobre a sessão do usuário no site.",
+      "Vírus de computador que apagam o histórico de navegação.",
+      "Um hardware utilizado para acelerar o processamento de sites pesados.",
+      "O termo técnico para a memória cache do roteador."
+    ],
+    "answer": 0,
+    "justification": "Cookies são arquivos de texto que salvam preferências, carrinhos de compras e logins (estado da sessão) para melhorar a experiência no retorno ao site."
+  },
+  {
+    "id": 46,
+    "category": "Informática",
+    "question": "Sobre os tipos de memória de um computador, assinale a afirmação correta:",
+    "options": [
+      "A memória RAM é não-volátil, ou seja, não perde os dados ao desligar o PC.",
+      "A memória ROM permite gravação e apagamento contínuo pelo usuário padrão.",
+      "O Disco Rígido (HD) é uma memória primária de processamento.",
+      "A memória RAM é volátil, perdendo todas as informações quando a energia é cortada."
+    ],
+    "answer": 3,
+    "justification": "A RAM (Random Access Memory) é uma memória volátil de trabalho temporário. Sem energia, tudo nela é apagado. HD/SSD são não-voláteis (armazenamento)."
+  },
+  {
+    "id": 47,
+    "category": "Informática",
+    "question": "Qual conceito de Computação em Nuvem (Cloud Computing) descreve o fornecimento de software completo acessível via navegador web, sem necessidade de instalação local (Ex: Google Docs, Office 365)?",
+    "options": [
+      "IaaS (Infraestrutura como Serviço)",
+      "PaaS (Plataforma como Serviço)",
+      "SaaS (Software como Serviço)",
+      "BaaS (Backend como Serviço)"
+    ],
+    "answer": 2,
+    "justification": "O SaaS (Software as a Service) entrega a aplicação final pronta para uso ao consumidor através da nuvem, sendo gerida inteiramente pelo provedor."
+  },
+  {
+    "id": 48,
+    "category": "Informática",
+    "question": "Para que um usuário possa enviar uma cópia oculta de um e-mail a alguém, de modo que os demais destinatários não saibam que essa pessoa também recebeu a mensagem, ele deve inserir o endereço no campo:",
+    "options": [
+      "Para (To)",
+      "Cc (Com cópia)",
+      "Cco (Com cópia oculta)",
+      "Assunto (Subject)"
+    ],
+    "answer": 2,
+    "justification": "CCO significa 'Com Cópia Oculta' (em inglês, BCC - Blind Carbon Copy). Os endereços colocados ali não ficam visíveis para os outros recebedores."
+  },
+  {
+    "id": 49,
+    "category": "Informática",
+    "question": "No Word (versões em Português), qual é o atalho utilizado para Selecionar Tudo em um documento de texto?",
+    "options": [
+      "Ctrl + A",
+      "Ctrl + T",
+      "Ctrl + S",
+      "Ctrl + E"
+    ],
+    "answer": 1,
+    "justification": "No pacote Office em português, o atalho para selecionar 'Tudo' é Ctrl+T. O Ctrl+A abre documentos. (Atenção: No Windows em inglês ou no navegador, seleciona-se tudo com Ctrl+A - All)."
+  },
+  {
+    "id": 50,
+    "category": "Informática",
+    "question": "Qual extensão é tradicionalmente utilizada para representar arquivos no formato de documento portátil, criado pela Adobe, que garante que a formatação não seja alterada independente do computador que o abra?",
+    "options": [
+      ".docx",
+      ".xlsx",
+      ".pdf",
+      ".txt"
+    ],
+    "answer": 2,
+    "justification": "A extensão .pdf (Portable Document Format) é o padrão universal para garantir a fidelidade de impressão e visualização de documentos estruturados."
+  }
+]
