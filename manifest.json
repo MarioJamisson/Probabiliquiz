@@ -1,11 +1,11 @@
 {
-  "name": "Simulado de Estatística",
-  "short_name": "Estatística",
-  "description": "App para estudo de probabilidade e estatística",
+  "name": "ProbabiliQuiz Plataforma",
+  "short_name": "ProbabiliQuiz",
+  "description": "Plataforma profissional para estudo de probabilidade e estatística",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f172a",
-  "theme_color": "#3b82f6",
+  "theme_color": "#6366f1",
   "icons": [
     {
       "src": "app_icon.png",
@@ -19,3 +19,4 @@
     }
   ]
 }
+

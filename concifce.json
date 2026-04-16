@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "category": "Engenharia de Software",
+    "question": "No framework Scrum, qual evento tem como objetivo principal a inspeção do progresso em direção ao objetivo da Sprint e ocorre diariamente por um máximo de 15 minutos?",
+    "options": [
+      "Sprint Review",
+      "Daily Scrum",
+      "Sprint Retrospective",
+      "Sprint Planning"
+    ],
+    "answer": 1,
+    "justification": "A Daily Scrum é um evento de 15 minutos exclusivo para os Developers inspecionarem o progresso e adaptarem o plano para as próximas 24 horas."
+  },
+  {
+    "id": 2,
+    "category": "Engenharia de Software",
+    "question": "Em um diagrama de Casos de Uso da UML, qual relacionamento indica que a execução de um caso de uso incorpora obrigatoriamente o comportamento de outro caso de uso?",
+    "options": [
+      "<<extend>>",
+      "Generalização",
+      "<<include>>",
+      "Associação"
+    ],
+    "answer": 2,
+    "justification": "O relacionamento <<include>> define um comportamento obrigatório, onde o caso base precisa do incluído para funcionar corretamente."
+  },
+  {
+    "id": 3,
+    "category": "Engenharia de Software",
+    "question": "Qual padrão de projeto (Design Pattern) criacional garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a ela?",
+    "options": [
+      "Singleton",
+      "Factory Method",
+      "Observer",
+      "Decorator"
+    ],
+    "answer": 0,
+    "justification": "O Singleton restringe a instanciação de uma classe a um único objeto, sendo muito utilizado para gerenciadores de conexão de banco de dados."
+  },
+  {
+    "id": 4,
+    "category": "Engenharia de Software",
+    "question": "No Scrum, quem é o único responsável por maximizar o valor do produto e gerenciar o Product Backlog?",
+    "options": [
+      "Scrum Master",
+      "Project Manager",
+      "Product Owner",
+      "Developers"
+    ],
+    "answer": 2,
+    "justification": "O Product Owner (Dono do Produto) representa os interesses do negócio e tem a palavra final sobre as prioridades do Backlog."
+  },
+  {
+    "id": 5,
+    "category": "Engenharia de Software",
+    "question": "No diagrama de classes da UML, qual tipo de relacionamento representa uma relação 'todo-parte' forte, onde as partes são destruídas se o todo for destruído?",
+    "options": [
+      "Agregação",
+      "Dependência",
+      "Realização",
+      "Composição"
+    ],
+    "answer": 3,
+    "justification": "A Composição (losango preenchido) indica posse exclusiva. Se a classe contêiner deixar de existir, suas partes também deixam."
+  },
+  {
+    "id": 6,
+    "category": "Engenharia de Software",
+    "question": "Qual é a principal saída (artefato) gerada após a conclusão bem-sucedida de uma Sprint no Scrum?",
+    "options": [
+      "Um novo Sprint Backlog",
+      "Um Incremento de produto utilizável",
+      "Um documento de requisitos atualizado",
+      "Um gráfico de Burndown"
+    ],
+    "answer": 1,
+    "justification": "O objetivo de cada Sprint é entregar um Incremento que atenda à Definição de Pronto (Definition of Done) e seja potencialmente utilizável."
+  },
+  {
+    "id": 7,
+    "category": "Engenharia de Software",
+    "question": "Um requisito que define que 'o sistema deve processar pagamentos em até 2 segundos' é classificado como:",
+    "options": [
+      "Requisito Funcional",
+      "Requisito Não Funcional",
+      "Regra de Negócio",
+      "Requisito de Domínio"
+    ],
+    "answer": 1,
+    "justification": "Restrições de desempenho, segurança, confiabilidade e tempo de resposta são classificados como Requisitos Não Funcionais."
+  },
+  {
+    "id": 8,
+    "category": "Engenharia de Software",
+    "question": "Qual dos seguintes princípios reflete corretamente os valores do Manifesto Ágil?",
+    "options": [
+      "Processos e ferramentas mais que indivíduos e interações.",
+      "Documentação abrangente mais que software em funcionamento.",
+      "Negociação de contratos mais que colaboração com o cliente.",
+      "Responder a mudanças mais que seguir um plano."
+    ],
+    "answer": 3,
+    "justification": "O Manifesto Ágil prioriza a adaptabilidade e a resposta rápida a mudanças em vez de seguir rigidamente um plano inicial."
+  },
+  {
+    "id": 9,
+    "category": "Engenharia de Software",
+    "question": "O diagrama UML que foca na troca de mensagens entre objetos ao longo do tempo, organizado de forma cronológica verticalmente, é o:",
+    "options": [
+      "Diagrama de Classes",
+      "Diagrama de Sequência",
+      "Diagrama de Atividades",
+      "Diagrama de Estados"
+    ],
+    "answer": 1,
+    "justification": "O Diagrama de Sequência detalha como as operações são realizadas na prática, mostrando as mensagens enviadas entre objetos ao longo de uma linha do tempo."
+  },
+  {
+    "id": 10,
+    "category": "Engenharia de Software",
+    "question": "Qual padrão de projeto estrutural permite adicionar novos comportamentos a objetos de forma dinâmica, sem alterar sua classe base?",
+    "options": [
+      "Observer",
+      "Strategy",
+      "Decorator",
+      "Facade"
+    ],
+    "answer": 2,
+    "justification": "O Decorator 'envolve' o objeto original, adicionando novas funcionalidades em tempo de execução sem afetar outros objetos da mesma classe."
+  },
+  {
+    "id": 11,
+    "category": "Programação Web",
+    "question": "Em uma arquitetura REST, qual método HTTP é o mais adequado para realizar atualizações parciais em um recurso?",
+    "options": [
+      "PUT",
+      "POST",
+      "PATCH",
+      "UPDATE"
+    ],
+    "answer": 2,
+    "justification": "O método PATCH aplica modificações parciais, enquanto o PUT substitui o recurso inteiro."
+  },
+  {
+    "id": 12,
+    "category": "Programação Web",
+    "question": "No padrão arquitetural MVC (Model-View-Controller), qual é o papel primário do Controller?",
+    "options": [
+      "Gerenciar o acesso e persistência no banco de dados.",
+      "Interpretar requisições do usuário e coordenar Model e View.",
+      "Renderizar a interface gráfica e o HTML final.",
+      "Garantir a criptografia de dados sensíveis na rede."
+    ],
+    "answer": 1,
+    "justification": "O Controller atua como o intermediário: recebe o input do usuário, invoca regras de negócio no Model e atualiza a View correspondente."
+  },
+  {
+    "id": 13,
+    "category": "Programação Web",
+    "question": "Um cliente faz uma requisição para uma URL que foi apagada permanentemente do servidor. Qual o código de status HTTP padrão que o servidor deve retornar?",
+    "options": [
+      "403 Forbidden",
+      "500 Internal Server Error",
+      "400 Bad Request",
+      "404 Not Found"
+    ],
+    "answer": 3,
+    "justification": "404 Not Found é o código de erro retornado quando o servidor não consegue encontrar o recurso solicitado na URI informada."
+  },
+  {
+    "id": 14,
+    "category": "Programação Web",
+    "question": "Qual código de status HTTP indica que a requisição foi bem-sucedida e que um novo recurso foi criado no servidor?",
+    "options": [
+      "200 OK",
+      "201 Created",
+      "202 Accepted",
+      "204 No Content"
+    ],
+    "answer": 1,
+    "justification": "O status 201 Created é a resposta específica de sucesso para requisições que resultam na criação de um recurso (frequentemente via POST)."
+  },
+  {
+    "id": 15,
+    "category": "Programação Web",
+    "question": "No design de APIs REST, a idempotência indica que múltiplas requisições idênticas não alteram o estado do servidor após a primeira. Qual dos métodos HTTP abaixo NÃO é considerado idempotente?",
+    "options": [
+      "GET",
+      "DELETE",
+      "POST",
+      "PUT"
+    ],
+    "answer": 2,
+    "justification": "Enviar múltiplos POSTs idênticos geralmente resulta na criação de múltiplos recursos duplicados no servidor."
+  },
+  {
+    "id": 16,
+    "category": "Programação Web",
+    "question": "Qual tag do HTML5 é semanticamente correta para definir uma área de navegação com links principais no documento?",
+    "options": [
+      "<menu>",
+      "<nav>",
+      "<header>",
+      "<section>"
+    ],
+    "answer": 1,
+    "justification": "A tag <nav> foi introduzida no HTML5 especificamente para encapsular os blocos de links de navegação principais do site."
+  },
+  {
+    "id": 17,
+    "category": "Programação Web",
+    "question": "No CSS Box Model, qual propriedade define o espaço entre o conteúdo do elemento e sua borda?",
+    "options": [
+      "margin",
+      "border",
+      "spacing",
+      "padding"
+    ],
+    "answer": 3,
+    "justification": "O padding é o espaçamento interno (entre o conteúdo e a borda), enquanto margin é o espaçamento externo (fora da borda)."
+  },
+  {
+    "id": 18,
+    "category": "Programação Web",
+    "question": "Em JavaScript, o que retorna a execução de uma função marcada com a palavra-chave 'async'?",
+    "options": [
+      "Um valor booleano",
+      "Uma Promise",
+      "Um objeto JSON estrito",
+      "Uma função de callback"
+    ],
+    "answer": 1,
+    "justification": "Qualquer função declarada como async em JavaScript retorna implicitamente uma Promise, facilitando operações assíncronas."
+  },
+  {
+    "id": 19,
+    "category": "Programação Web",
+    "question": "Qual vulnerabilidade web ocorre quando um aplicativo inclui dados não confiáveis em uma página web sem validação, permitindo que scripts maliciosos sejam executados no navegador da vítima?",
+    "options": [
+      "SQL Injection",
+      "CSRF (Cross-Site Request Forgery)",
+      "XSS (Cross-Site Scripting)",
+      "DDoS"
+    ],
+    "answer": 2,
+    "justification": "O XSS envolve a injeção de scripts no lado do cliente (client-side), que são executados indevidamente pelos navegadores de outros usuários."
+  },
+  {
+    "id": 20,
+    "category": "Programação Web",
+    "question": "Ao consumir uma API externa usando o utilitário Fetch do JavaScript, qual método deve ser chamado na resposta para extrair o corpo da resposta HTTP no formato de objeto JavaScript?",
+    "options": [
+      "response.parse()",
+      "response.json()",
+      "response.stringify()",
+      "response.text()"
+    ],
+    "answer": 1,
+    "justification": "O método response.json() lê o corpo da resposta (response stream) até o fim e retorna uma Promise que resolve com o resultado do parse do JSON em um objeto JavaScript."
+  },
+  {
+    "id": 21,
+    "category": "Banco de Dados",
+    "question": "Na modelagem de banco de dados relacionais, o que define a Primeira Forma Normal (1FN)?",
+    "options": [
+      "Todos os atributos devem depender apenas da chave primária.",
+      "Não deve haver atributos multivalorados ou compostos, todos devem ser atômicos.",
+      "Eliminação de qualquer dependência transitiva.",
+      "A tabela deve possuir pelo menos duas chaves estrangeiras."
+    ],
+    "answer": 1,
+    "justification": "A 1FN exige que cada coluna contenha apenas valores atômicos (indivisíveis) e que não existam grupos repetitivos."
+  },
+  {
+    "id": 22,
+    "category": "Banco de Dados",
+    "question": "Para garantir que um banco de dados esteja na Terceira Forma Normal (3FN), a relação deve estar na 2FN e:",
+    "options": [
+      "Todas as chaves estrangeiras devem ser nulas.",
+      "Não possuir chaves compostas.",
+      "Nenhum atributo não-chave depender de outro atributo não-chave (dependência transitiva).",
+      "Todas as tuplas devem ser únicas."
+    ],
+    "answer": 2,
+    "justification": "A 3FN elimina dependências transitivas. Se a coluna B depende da chave primária, a coluna C não pode depender da coluna B."
+  },
+  {
+    "id": 23,
+    "category": "Banco de Dados",
+    "question": "Qual propriedade ACID garante que uma transação de banco de dados seja tratada como uma unidade indivisível (tudo ou nada)?",
+    "options": [
+      "Consistência",
+      "Isolamento",
+      "Atomicidade",
+      "Durabilidade"
+    ],
+    "answer": 2,
+    "justification": "A Atomicidade assegura que se qualquer parte da transação falhar, toda a transação falha e o banco de dados permanece inalterado."
+  },
+  {
+    "id": 24,
+    "category": "Banco de Dados",
+    "question": "Qual comando SQL é utilizado para remover completamente a estrutura de uma tabela e todos os seus dados do banco?",
+    "options": [
+      "DELETE TABLE",
+      "TRUNCATE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE"
+    ],
+    "answer": 2,
+    "justification": "DROP TABLE é um comando DDL que exclui a definição da tabela, seus dados, índices e permissões do banco de dados."
+  },
+  {
+    "id": 25,
+    "category": "Banco de Dados",
+    "question": "Em SQL, a cláusula utilizada para filtrar resultados APÓS a aplicação de funções de agregação (como SUM ou COUNT) é o:",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "GROUP BY"
+    ],
+    "answer": 1,
+    "justification": "A cláusula WHERE filtra linhas antes do agrupamento. A cláusula HAVING é utilizada para filtrar os grupos criados pela cláusula GROUP BY."
+  },
+  {
+    "id": 26,
+    "category": "Banco de Dados",
+    "question": "No Modelo Entidade-Relacionamento, quando um relacionamento M:N (Muitos-para-Muitos) possui atributos próprios, ele deve ser mapeado no modelo relacional físico como:",
+    "options": [
+      "Uma chave primária composta na entidade forte.",
+      "Uma entidade associativa (nova tabela) ligando as duas entidades.",
+      "Uma view indexada no banco de dados.",
+      "Um atributo multivalorado."
+    ],
+    "answer": 1,
+    "justification": "Relacionamentos M:N são resolvidos gerando uma terceira tabela (entidade associativa) que contém as chaves primárias das tabelas originais como chaves estrangeiras."
+  },
+  {
+    "id": 27,
+    "category": "Banco de Dados",
+    "question": "Qual tipo de junção SQL retorna todas as linhas da tabela à esquerda, e as linhas correspondentes da tabela à direita (preenchendo com NULL onde não há correspondência)?",
+    "options": [
+      "INNER JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN",
+      "LEFT JOIN"
+    ],
+    "answer": 3,
+    "justification": "O LEFT JOIN garante que os registros da tabela da 'esquerda' (a primeira declarada) apareçam no resultado final, independentemente de match."
+  },
+  {
+    "id": 28,
+    "category": "Banco de Dados",
+    "question": "A propriedade ACID que garante que transações concorrentes não interfiram umas nas outras, como se fossem executadas sequencialmente, é:",
+    "options": [
+      "Durabilidade",
+      "Atomicidade",
+      "Isolamento",
+      "Consistência"
+    ],
+    "answer": 2,
+    "justification": "O Isolamento protege os dados temporários de uma transação contra leitura/escrita de outras transações simultâneas até que ela seja concluída (commit)."
+  },
+  {
+    "id": 29,
+    "category": "Banco de Dados",
+    "question": "Um conjunto de rotinas pré-compiladas e armazenadas no servidor de banco de dados, que podem receber parâmetros e ser chamadas por aplicações, é conhecido como:",
+    "options": [
+      "Triggers (Gatilhos)",
+      "Views (Visões)",
+      "Stored Procedures (Procedimentos Armazenados)",
+      "Indexes (Índices)"
+    ],
+    "answer": 2,
+    "justification": "Stored Procedures centralizam regras de negócios no banco de dados, reduzindo o tráfego de rede e garantindo segurança e reuso de lógica."
+  },
+  {
+    "id": 30,
+    "category": "Banco de Dados",
+    "question": "Para aplicar a Integridade Referencial entre duas tabelas, deve-se utilizar a restrição (constraint) de:",
+    "options": [
+      "PRIMARY KEY",
+      "UNIQUE",
+      "FOREIGN KEY",
+      "CHECK"
+    ],
+    "answer": 2,
+    "justification": "A Foreign Key (Chave Estrangeira) garante que o valor em uma coluna corresponda a uma chave primária válida em outra tabela, mantendo a integridade referencial."
+  },
+  {
+    "id": 31,
+    "category": "Estruturas de Dados",
+    "question": "Qual é a complexidade assintótica de tempo, no pior caso, do algoritmo de Busca Binária operando em um vetor previamente ordenado?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "answer": 2,
+    "justification": "A Busca Binária divide o problema pela metade a cada iteração, garantindo que o tempo de execução cresça logaritmicamente em relação ao tamanho da entrada."
+  },
+  {
+    "id": 32,
+    "category": "Estruturas de Dados",
+    "question": "Qual estrutura de dados utiliza o princípio LIFO (Last In, First Out) para inserção e remoção de elementos?",
+    "options": [
+      "Fila (Queue)",
+      "Pilha (Stack)",
+      "Árvore (Tree)",
+      "Grafo (Graph)"
+    ],
+    "answer": 1,
+    "justification": "Em uma Pilha, o último elemento a ser inserido (Push) é o primeiro elemento a ser removido (Pop)."
+  },
+  {
+    "id": 33,
+    "category": "Estruturas de Dados",
+    "question": "Se você precisa de uma estrutura de dados onde o primeiro elemento a entrar seja estritamente o primeiro a sair (FIFO), você deve utilizar:",
+    "options": [
+      "Uma Fila (Queue)",
+      "Uma Lista Encadeada Circular",
+      "Um Heap",
+      "Uma Pilha (Stack)"
+    ],
+    "answer": 0,
+    "justification": "A Fila (Queue) segue a lógica de fila de banco: o primeiro que chega é o primeiro a ser atendido (First In, First Out)."
+  },
+  {
+    "id": 34,
+    "category": "Estruturas de Dados",
+    "question": "Em uma Árvore Binária de Busca (BST) válida, onde os valores dos nós da subárvore esquerda e direita devem ficar em relação ao nó raiz?",
+    "options": [
+      "Esquerda maiores, direita menores.",
+      "Esquerda menores, direita maiores.",
+      "Ambos maiores, de acordo com o nível da árvore.",
+      "A ordem não importa desde que seja binária."
+    ],
+    "answer": 1,
+    "justification": "A regra da BST é que todo nó à esquerda deve ter valor inferior ao nó pai, e todo nó à direita deve ter valor superior."
+  },
+  {
+    "id": 35,
+    "category": "Estruturas de Dados",
+    "question": "Qual algoritmo de ordenação baseia-se no paradigma de 'Divisão e Conquista', escolhendo um elemento como pivô e particionando a matriz ao redor dele?",
+    "options": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Selection Sort"
+    ],
+    "answer": 2,
+    "justification": "O Quick Sort divide recursivamente o vetor em torno de um pivô (valores menores antes, maiores depois), sendo extremamente rápido na prática."
+  },
+  {
+    "id": 36,
+    "category": "Estruturas de Dados",
+    "question": "Qual é a estrutura de dados não linear formada por um conjunto de vértices (ou nós) interligados por arestas, muito usada para modelar rotas em mapas?",
+    "options": [
+      "Árvore AVL",
+      "Fila de Prioridade",
+      "Tabela Hash",
+      "Grafo"
+    ],
+    "answer": 3,
+    "justification": "Grafos modelam conexões entre diferentes elementos (cidades, redes de computadores, amizades) sem necessariamente possuir uma raiz única como as árvores."
+  },
+  {
+    "id": 37,
+    "category": "Estruturas de Dados",
+    "question": "Para garantir acesso extremamente rápido, na média em tempo O(1), a pares de chave-valor baseando-se em funções matemáticas para determinar índices, usa-se:",
+    "options": [
+      "Árvore B",
+      "Tabela Hash (Dicionário)",
+      "Matriz Bidimensional",
+      "Lista Duplamente Encadeada"
+    ],
+    "answer": 1,
+    "justification": "Tabelas Hash mapeiam chaves para posições de memória via funções de espalhamento, permitindo recuperação de dados quase instantânea."
+  },
+  {
+    "id": 38,
+    "category": "Estruturas de Dados",
+    "question": "Árvores AVL resolvem qual problema comum em Árvores Binárias de Busca tradicionais?",
+    "options": [
+      "O problema de alocação estática de memória.",
+      "O desbalanceamento que degrada a performance de busca para O(n).",
+      "A impossibilidade de aceitar valores repetidos.",
+      "A dificuldade de se usar funções recursivas."
+    ],
+    "answer": 1,
+    "justification": "Árvores AVL aplicam rotações automáticas ao inserir/deletar nós para garantir que a árvore fique balanceada, mantendo o tempo de busca em O(log n)."
+  },
+  {
+    "id": 39,
+    "category": "Estruturas de Dados",
+    "question": "Qual destes algoritmos de ordenação possui complexidade de pior caso O(n²) e funciona empurrando repetidamente o maior elemento para o final do array?",
+    "options": [
+      "Merge Sort",
+      "Heap Sort",
+      "Quick Sort",
+      "Bubble Sort"
+    ],
+    "answer": 3,
+    "justification": "O Bubble Sort flutua os maiores elementos iterativamente trocando pares adjacentes, tornando-o ineficiente para grandes massas de dados."
+  },
+  {
+    "id": 40,
+    "category": "Estruturas de Dados",
+    "question": "Ao explorar um grafo, qual algoritmo prioriza visitar todos os nós vizinhos do nó atual antes de aprofundar a exploração pelos filhos desses vizinhos?",
+    "options": [
+      "Busca em Profundidade (DFS)",
+      "Busca em Largura (BFS)",
+      "Algoritmo de Dijkstra",
+      "Busca Binária"
+    ],
+    "answer": 1,
+    "justification": "A Busca em Largura (Breadth-First Search) explora as camadas em 'ondas', garantindo que se visite primeiro todos os vértices à mesma distância da origem."
+  },
+  {
+    "id": 41,
+    "category": "Legislação e Pedagógico",
+    "question": "Segundo a Lei nº 8.112/90, qual é o prazo máximo estabelecido para a posse de um servidor público após a publicação do ato de provimento (nomeação)?",
+    "options": [
+      "10 dias",
+      "15 dias",
+      "30 dias",
+      "45 dias"
+    ],
+    "answer": 2,
+    "justification": "A posse ocorrerá no prazo de trinta dias contados da publicação do ato de provimento, segundo o art. 13 da Lei nº 8.112/90."
+  },
+  {
+    "id": 42,
+    "category": "Legislação e Pedagógico",
+    "question": "Ainda sob a égide da Lei nº 8.112/90, o prazo para o servidor empossado em cargo público entrar em efetivo exercício é de:",
+    "options": [
+      "5 dias",
+      "15 dias",
+      "30 dias",
+      "60 dias"
+    ],
+    "answer": 1,
+    "justification": "É de 15 dias o prazo para o servidor empossado entrar em exercício, contados da data da posse."
+  },
+  {
+    "id": 43,
+    "category": "Legislação e Pedagógico",
+    "question": "A investidura em cargo público efetivo do IFCE, conforme o ordenamento jurídico vigente e a Lei nº 8.112/90, ocorrerá EXATAMENTE no momento da:",
+    "options": [
+      "Aprovação no concurso público.",
+      "Nomeação em Diário Oficial.",
+      "Posse (assinatura do termo).",
+      "Entrada em exercício."
+    ],
+    "answer": 2,
+    "justification": "A lei é explícita ao definir que a investidura em cargo público ocorre com a posse, momento em que se aceita formalmente as atribuições do cargo."
+  },
+  {
+    "id": 44,
+    "category": "Legislação e Pedagógico",
+    "question": "De acordo com a LDB (Lei de Diretrizes e Bases da Educação - Lei nº 9.394/96), o ensino será ministrado com base em alguns princípios. Qual das opções ABAIXO NÃO é um desses princípios legais?",
+    "options": [
+      "Igualdade de condições para o acesso e permanência na escola.",
+      "Pluralismo de ideias e de concepções pedagógicas.",
+      "Gestão autoritária do ensino público.",
+      "Garantia de padrão de qualidade."
+    ],
+    "answer": 2,
+    "justification": "A LDB estipula como princípio a Gestão Democrática do ensino público, e não uma gestão autoritária."
+  },
+  {
+    "id": 45,
+    "category": "Legislação e Pedagógico",
+    "question": "Qual lei federal foi responsável por instituir a Rede Federal de Educação Profissional, Científica e Tecnológica e criar os Institutos Federais de Educação, Ciência e Tecnologia (IFs)?",
+    "options": [
+      "Lei nº 8.112/1990",
+      "Lei nº 9.394/1996",
+      "Lei nº 8.069/1990",
+      "Lei nº 11.892/2008"
+    ],
+    "answer": 3,
+    "justification": "A Lei 11.892/2008 é o marco legal que transformou os antigos CEFETs e Escolas Técnicas nos atuais Institutos Federais, como o IFCE."
+  },
+  {
+    "id": 46,
+    "category": "Legislação e Pedagógico",
+    "question": "Sobre os Institutos Federais (Lei 11.892/2008), é exigido por lei que as instituições garantam um percentual mínimo de suas vagas para cursos técnicos de nível médio. Qual é esse percentual?",
+    "options": [
+      "No mínimo 20%",
+      "No mínimo 30%",
+      "No mínimo 50%",
+      "100% das vagas"
+    ],
+    "answer": 2,
+    "justification": "A lei estipula que os IFs devem destinar no mínimo 50% de suas vagas para a educação profissional técnica de nível médio, prioritariamente na forma integrada."
+  },
+  {
+    "id": 47,
+    "category": "Legislação e Pedagógico",
+    "question": "No Estatuto da Criança e do Adolescente (ECA - Lei 8.069/90), considera-se adolescente a pessoa com idade entre:",
+    "options": [
+      "Doze e dezoito anos de idade incompletos.",
+      "Doze e dezoito anos de idade completos.",
+      "Catorze e dezoito anos de idade.",
+      "Dez e dezoito anos de idade incompletos."
+    ],
+    "answer": 0,
+    "justification": "O ECA define criança como a pessoa até 12 anos incompletos, e adolescente aquela entre 12 e 18 anos de idade incompletos."
+  },
+  {
+    "id": 48,
+    "category": "Legislação e Pedagógico",
+    "question": "Na Didática e Prática de Ensino, a avaliação que tem o objetivo principal de diagnosticar as dificuldades do aluno de forma contínua durante o processo, para ajustar as estratégias pedagógicas, é a:",
+    "options": [
+      "Avaliação Somativa",
+      "Avaliação Formativa",
+      "Avaliação Punitiva",
+      "Avaliação Classificatória"
+    ],
+    "answer": 1,
+    "justification": "A avaliação formativa não visa dar nota final (somativa), mas sim acompanhar e guiar o aprendizado (formatar o conhecimento) passo a passo."
+  },
+  {
+    "id": 49,
+    "category": "Legislação e Pedagógico",
+    "question": "Conforme a Lei nº 8.112/90, a forma de provimento de cargo público que consiste no retorno do servidor aposentado por invalidez, quando junta médica oficial declara insubsistentes os motivos da aposentadoria, denomina-se:",
+    "options": [
+      "Reintegração",
+      "Recondução",
+      "Reversão",
+      "Aproveitamento"
+    ],
+    "answer": 2,
+    "justification": "Reversão é o retorno à atividade de servidor aposentado. (Lembrete: Reversão = Retorno do Velhinho/Inválido)."
+  },
+  {
+    "id": 50,
+    "category": "Legislação e Pedagógico",
+    "question": "A destituição de cargo em comissão, e a aposentadoria são, segundo a Lei 8.112/90, formas de:",
+    "options": [
+      "Provimento",
+      "Vacância",
+      "Licença Especial",
+      "Penalidade Disciplinar leve"
+    ],
+    "answer": 1,
+    "justification": "A vacância ocorre quando o cargo público fica vago, sem titular. Aposentadoria, exoneração, demissão e posse em outro cargo inacumulável são formas de vacância."
+  }
+]

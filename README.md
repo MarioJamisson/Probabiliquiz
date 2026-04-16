@@ -1,55 +1,36 @@
-# 📊 Simulado de Estatística - Unidade 1
+# 📊 ProbabiliQuiz v2.0
 
-Um aplicativo web moderno, responsivo e focado em dispositivos móveis, desenvolvido para auxiliar nos estudos de **Probabilidade e Estatística**. Este simulado foca nos conceitos fundamentais da disciplina, proporcionando uma experiência de aprendizado interativa e eficiente.
+Uma plataforma profissional de simulados para o estudo de **Estatística**, projetada com foco em UX moderna, aprendizado didático e acompanhamento de desempenho.
 
-![Versão Mobile](https://img.shields.io/badge/Design-Mobile--First-blueviolet)
-![Status](https://img.shields.io/badge/Status-Completo-success)
+## 🚀 Novidades da Versão 2.0
 
-## 🎯 Objetivo
-Facilitar a fixação de conteúdo para a prova da Unidade 1, cobrindo os pilares essenciais da estatística descritiva e metodológica.
+O sistema foi completamente refatorado para deixar de ser um simulado fixo e se tornar uma **plataforma modular**.
 
-## 📚 Conteúdo Abrangido
-O simulado conta com **50 questões** inéditas e selecionadas, distribuídas nos temas:
-- **Introdução à Estatística**: Conceitos básicos, população, amostra e variáveis.
-- **Fases do Método Estatístico**: Da coleta de dados à análise e interpretação.
-- **Séries Estatísticas**: Séries temporais, geográficas, específicas e compostas.
+### 🛠️ Arquitetura Profissional
+- **Fonte de Dados Externa**: Agora as questões residem em um arquivo `questions.json`, permitindo fácil atualização sem mexer no código.
+- **Motor de Simulado Inteligente**: Lógica separada da interface, tratando embaralhamento, filtros por assunto e cálculo de métricas em tempo real.
+- **Interface Premium**: Design baseado em Glassmorphism, com suporte a **Modo Escuro/Claro** e animações fluidas.
 
-## ✨ Funcionalidades Principais
-- **Feedback Imediato**: Descubra se acertou na hora, com destaque visual para a alternativa correta.
-- **Justificativas Detalhadas**: Cada questão possui uma explicação pedagógica sobre o porquê da resposta estar correta ou incorreta.
-- **Barra de Progresso Dinâmica**: Acompanhe sua evolução ao longo do simulado.
-- **Contador de Acertos**: Visualize seu desempenho em tempo real.
-- **Tela de Resultados**: Resumo final com mensagem personalizada baseada no seu percentual de acertos.
-- **Interface Premium**: Design limpo, utilizando a tipografia *Inter* e efeitos de *glassmorphism* para uma leitura agradável.
+### ✨ Funcionalidades Adicionais
+- **Seleção por Assunto**: Escolha entre simulado completo ou tópicos específicos (Introdução, Fases do Método, Séries).
+- **Feedback Didático**: Cada resposta acompanha uma explicação detalhada do conceito abordado.
+- **Modo Revisão**: Ao finalizar, você pode optar por revisar apenas as questões que errou.
+- **Cronômetro**: Acompanhe o tempo gasto em cada sessão para treinar sua velocidade.
+- **Histórico Local**: Seus últimos 10 resultados ficam salvos no navegador.
+- **Progresso Visual**: Barra de progresso dinâmica e gráfico circular de desempenho final.
 
-## 🚀 Como Executar
-Como o projeto utiliza puramente **HTML5, CSS3 e JavaScript (Vanilla)**, não é necessária nenhuma instalação complexa:
+## 📱 Tecnologias
+- **HTML5 & CSS3**: Custom properties, Flexbox/Grid e Glassmorphism.
+- **JavaScript Moderno (ES6+)**: Fetch API, LocalStorage e manipuladores de estado.
+- **Mobile First**: Totalmente responsivo para tablets e smartphones.
+- **PWA Ready**: Manifest e Service Worker para funcionamento offline (necessário protocolo HTTPS).
 
-1. Clone ou baixe este repositório.
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
-3. Para uma experiência ideal, utilize o **Live Server** ou similar, ou simplesmente arraste o arquivo para o seu browser.
-
-## 📱 Uso no Celular (Offline)
-Este aplicativo foi transformado em um **PWA (Progressive Web App)**, o que permite que ele funcione sem internet após o primeiro acesso.
-
-### Como instalar:
-1. **Hospedagem**: Coloque os arquivos em um servidor (pode ser o [GitHub Pages](https://pages.github.com/), [Vercel](https://vercel.com/), ou até um servidor local na sua rede Wi-Fi).
-2. **Primeiro Acesso**: Acesse o link pelo navegador do celular (**Chrome** no Android ou **Safari** no iOS).
-3. **Adicionar à Tela de Início**:
-   - No **Android (Chrome)**: Toque nos três pontinhos e selecione "Instalar aplicativo" ou "Adicionar à tela inicial".
-   - No **iOS (Safari)**: Toque no botão de "Compartilhar" (quadrado com seta) e selecione "Adicionar à Tela de Início".
-4. **Pronto!**: Agora o ícone do Simulado aparecerá no seu celular e você poderá abrir e estudar mesmo se estiver **totalmente sem internet**.
-
-## 🛠️ Detalhes do PWA
-- **Manifest**: Arquivo `manifest.json` define o nome, cores e ícones na tela inicial.
-- **Service Worker**: O arquivo `sw.js` gerencia o cache dos arquivos, garantindo que o app carregue instantaneamente mesmo offline.
-- **Ícones Customizados**: O app possui ícones próprios gerados para uma aparência premium.
-
-## 📱 Tecnologias Utilizadas
-- **HTML5**: Estrutura semântica e acessível.
-- **CSS3**: Estilização moderna com variáveis (Design System), Flexbox e Grid.
-- **JavaScript (ES6+)**: Lógica do quiz e manipulação dinâmica do DOM.
-- **Google Fonts**: Tipografia otimizada para legibilidade.
+## 📂 Estrutura do Projeto
+- `index.html`: Camada visual e estrutura.
+- `style.css`: Design system e animações.
+- `app.js`: Motor do simulado e lógica de negócio.
+- `questions.json`: Banco de dados de questões.
+- `sw.js`: Service worker para cache offline.
 
 ---
-*Desenvolvido como ferramenta de estudo personalizada.*
+*Desenvolvido para transformar o estudo de estatística em uma experiência envolvente e profissional.*

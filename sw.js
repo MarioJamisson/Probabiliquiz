@@ -1,10 +1,10 @@
-const CACHE_NAME = 'estatistica-v1';
+const CACHE_NAME = 'probabiliquiz-v2';
 const ASSETS = [
     './',
     './index.html',
     './style.css',
     './app.js',
-    './questions.js',
+    './questions.json',
     './manifest.json',
     './app_icon.png'
 ];
@@ -38,3 +38,4 @@ self.addEventListener('fetch', (event) => {
         })
     );
 });
+
