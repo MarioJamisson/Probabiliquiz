@@ -11,6 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
     let totalSeconds = 0;
     let wrongAnswersIndices = [];
     let isReviewMode = false;
+    let activeBank = 'stats'; // 'stats' | 'ifce'
+
+    // Cache de bancos já carregados
+    const bankCache = {};
+
+    // Definição dos bancos de questões
+    const BANKS = {
+        stats: { file: 'questions.json',       label: 'Estatística',    icon: '📊' },
+        ifce:  { file: 'ifce_questions.json',  label: 'Concurso IFCE',  icon: '🏛️' }
+    };
 
     // --- DOM Elements ---
     const screens = {
@@ -56,20 +66,48 @@ document.addEventListener('DOMContentLoaded', () => {
         historyList: document.getElementById('history-list')
     };
 
+    const bankTabs = document.querySelectorAll('.bank-tab');
+
     // --- Initialization ---
     init();
 
     async function init() {
+        setupEventListeners();
+        loadHistory();
+        await switchBank('stats');
+    }
+
+    async function switchBank(bankKey) {
+        activeBank = bankKey;
+
+        // Atualiza visual das abas
+        bankTabs.forEach(tab => {
+            tab.classList.toggle('active', tab.dataset.bank === bankKey);
+        });
+
+        // Usa cache se já carregado
+        if (bankCache[bankKey]) {
+            allQuestions = bankCache[bankKey];
+            selectedCategory = 'all';
+            refreshCategories();
+            return;
+        }
+
+        // Indicador de carregamento
+        const grid = document.querySelector('.subject-grid');
+        grid.innerHTML = '<p class="loading-msg">Carregando questões...</p>';
+
         try {
-            const response = await fetch('questions.json');
-            allQuestions = await response.json();
-            setupEventListeners();
-            loadHistory();
+            const response = await fetch(BANKS[bankKey].file);
+            if (!response.ok) throw new Error('Arquivo não encontrado');
+            const data = await response.json();
+            bankCache[bankKey] = data;
+            allQuestions = data;
+            selectedCategory = 'all';
             refreshCategories();
         } catch (error) {
-            console.error('Erro ao carregar questões:', error);
-            // Don't alert here so users can still upload their own
-            setupEventListeners();
+            console.error('Erro ao carregar banco:', error);
+            grid.innerHTML = '<p class="loading-msg" style="color:var(--error)">❌ Erro ao carregar questões.</p>';
         }
     }
 
@@ -94,6 +132,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Upload Logic
         navElements.btnUpload.addEventListener('click', () => navElements.fileInput.click());
         navElements.fileInput.addEventListener('change', handleFileUpload);
+
+        // Bank tab switchers
+        bankTabs.forEach(tab => {
+            tab.addEventListener('click', () => switchBank(tab.dataset.bank));
+        });
     }
 
     function setupCategoryListeners() {
