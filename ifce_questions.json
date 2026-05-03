@@ -1,0 +1,3572 @@
+[
+  {
+    "id": 1,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "Qual componente de hardware é considerado o 'cérebro' do computador, responsável por processar instruções?",
+    "options": [
+      "Memória RAM",
+      "Placa de vídeo",
+      "Processador (CPU)",
+      "HD"
+    ],
+    "answer": 2,
+    "justification": "A CPU (Unidade Central de Processamento) executa as instruções dos programas, sendo responsável pelo processamento de dados."
+  },
+  {
+    "id": 2,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "A sigla RAM significa:",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Rapid Analogic Memory",
+      "Read And Modify"
+    ],
+    "answer": 1,
+    "justification": "RAM significa Random Access Memory (Memória de Acesso Aleatório), permite leitura e escrita com acesso direto a qualquer posição."
+  },
+  {
+    "id": 3,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "Qual tipo de memória é volátil, perdendo os dados quando o computador é desligado?",
+    "options": [
+      "HD",
+      "SSD",
+      "ROM",
+      "RAM"
+    ],
+    "answer": 3,
+    "justification": "A RAM é volátil: necessita de energia elétrica para manter os dados. Ao desligar, todo conteúdo é perdido."
+  },
+  {
+    "id": 4,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "A memória ROM (Read Only Memory) é:",
+    "options": [
+      "Volátil e de leitura/escrita",
+      "Não volátil e somente leitura",
+      "Volátil e somente leitura",
+      "Não volátil e de leitura/escrita"
+    ],
+    "answer": 1,
+    "justification": "A ROM é não volátil (mantém dados sem energia) e, em sua forma básica, permite apenas leitura."
+  },
+  {
+    "id": 5,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "O HD (Hard Disk) é classificado como dispositivo de:",
+    "options": [
+      "Processamento",
+      "Armazenamento secundário",
+      "Memória primária",
+      "Entrada de dados"
+    ],
+    "answer": 1,
+    "justification": "O HD é memória secundária (não volátil), usado para armazenamento permanente de dados e programas."
+  },
+  {
+    "id": 6,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "Qual das alternativas abaixo é um dispositivo de ENTRADA de dados?",
+    "options": [
+      "Monitor",
+      "Teclado",
+      "Impressora",
+      "Caixa de som"
+    ],
+    "answer": 1,
+    "justification": "O teclado envia dados ao computador, sendo portanto dispositivo de entrada. Monitor e impressora são de saída."
+  },
+  {
+    "id": 7,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "O monitor de computador é um dispositivo de:",
+    "options": [
+      "Entrada",
+      "Armazenamento",
+      "Saída",
+      "Processamento"
+    ],
+    "answer": 2,
+    "justification": "O monitor exibe informações ao usuário, sendo um dispositivo de saída de dados."
+  },
+  {
+    "id": 8,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "A impressora é classificada como dispositivo de:",
+    "options": [
+      "Entrada",
+      "Saída",
+      "Entrada e saída",
+      "Processamento"
+    ],
+    "answer": 1,
+    "justification": "A impressora recebe dados do computador e os imprime, sendo dispositivo de saída."
+  },
+  {
+    "id": 9,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "Qual componente é responsável por conectar todos os periféricos internos ao processador?",
+    "options": [
+      "Fonte de alimentação",
+      "Placa-mãe",
+      "Memória RAM",
+      "Placa de som"
+    ],
+    "answer": 1,
+    "justification": "A placa-mãe (motherboard) é o circuito principal que interliga CPU, memória, slots de expansão e interfaces de periféricos."
+  },
+  {
+    "id": 10,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "SSD significa:",
+    "options": [
+      "Super Speed Drive",
+      "Solid State Drive",
+      "Secondary Storage Device",
+      "System Software Disk"
+    ],
+    "answer": 1,
+    "justification": "SSD (Solid State Drive) é um dispositivo de armazenamento que usa memória flash, sem partes móveis, sendo mais rápido que o HD."
+  },
+  {
+    "id": 11,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O clock do processador indica:",
+    "options": [
+      "A temperatura máxima do chip",
+      "A velocidade com que executa ciclos por segundo",
+      "O consumo de energia em watts",
+      "O tamanho do cache"
+    ],
+    "answer": 1,
+    "justification": "O clock (medido em Hz, GHz) representa quantos ciclos por segundo o processador executa, determinando a velocidade de processamento."
+  },
+  {
+    "id": 12,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A memória cache L1 é:",
+    "options": [
+      "A mais lenta e maior",
+      "A mais rápida e menor, dentro do núcleo",
+      "Externa ao processador",
+      "Equivalente à RAM"
+    ],
+    "answer": 1,
+    "justification": "Cache L1 é a memória mais rápida e menor, localizada dentro de cada núcleo do processador, com acesso em poucos ciclos."
+  },
+  {
+    "id": 13,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O barramento de dados (bus) de um computador serve para:",
+    "options": [
+      "Resfriamento do processador",
+      "Transferência de dados entre componentes",
+      "Armazenar o BIOS",
+      "Controlar o clock"
+    ],
+    "answer": 1,
+    "justification": "O barramento é um conjunto de trilhas condutoras que transporta dados entre CPU, memória e periféricos."
+  },
+  {
+    "id": 14,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Quantos bits compõem 1 byte?",
+    "options": [
+      "4",
+      "16",
+      "8",
+      "2"
+    ],
+    "answer": 2,
+    "justification": "1 byte = 8 bits. Esta é a unidade básica de armazenamento na maioria dos sistemas computacionais modernos."
+  },
+  {
+    "id": 15,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Qual a ordem correta de unidades de armazenamento, da menor para a maior?",
+    "options": [
+      "KB, MB, GB, TB",
+      "MB, KB, GB, TB",
+      "GB, MB, KB, TB",
+      "TB, GB, MB, KB"
+    ],
+    "answer": 0,
+    "justification": "A ordem crescente é: Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB) < Terabyte (TB)."
+  },
+  {
+    "id": 16,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O BIOS (Basic Input/Output System) é armazenado na:",
+    "options": [
+      "RAM",
+      "HD",
+      "Memória ROM/Flash da placa-mãe",
+      "Memória cache"
+    ],
+    "answer": 2,
+    "justification": "O BIOS fica em chip de memória não volátil (ROM ou Flash) na placa-mãe, inicializando o hardware ao ligar o computador."
+  },
+  {
+    "id": 17,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A tecnologia UEFI substitui o BIOS tradicional com a vantagem de:",
+    "options": [
+      "Ser mais lenta porém mais segura",
+      "Suportar discos maiores que 2TB e interface gráfica",
+      "Usar apenas conexões PS/2",
+      "Reduzir o número de núcleos"
+    ],
+    "answer": 1,
+    "justification": "UEFI (Unified Extensible Firmware Interface) suporta discos GPT (acima de 2TB), inicialização mais rápida e interface gráfica."
+  },
+  {
+    "id": 18,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Um processador 'dual core' possui:",
+    "options": [
+      "Um núcleo com clock dobrado",
+      "Dois núcleos de processamento independentes",
+      "Duas CPUs físicas separadas",
+      "Cache duplicado"
+    ],
+    "answer": 1,
+    "justification": "Dual core significa dois núcleos de processamento no mesmo chip, permitindo execução paralela de tarefas."
+  },
+  {
+    "id": 19,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O barramento USB é classificado como:",
+    "options": [
+      "Barramento interno",
+      "Interface serial universal",
+      "Barramento paralelo exclusivo",
+      "Protocolo sem fio"
+    ],
+    "answer": 1,
+    "justification": "USB (Universal Serial Bus) é uma interface de comunicação serial que conecta periféricos externos ao computador."
+  },
+  {
+    "id": 20,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A porta HDMI é utilizada principalmente para:",
+    "options": [
+      "Conexão de discos internos",
+      "Transmissão de áudio e vídeo digital de alta definição",
+      "Comunicação em rede",
+      "Alimentação elétrica de periféricos"
+    ],
+    "answer": 1,
+    "justification": "HDMI (High-Definition Multimedia Interface) transmite áudio e vídeo digital em alta definição por um único cabo."
+  },
+  {
+    "id": 21,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Em relação ao padrão SATA, é correto afirmar:",
+    "options": [
+      "É um protocolo de rede",
+      "É uma interface para conexão de dispositivos de armazenamento internos",
+      "Substitui a porta USB externamente",
+      "É usado exclusivamente em memória RAM"
+    ],
+    "answer": 1,
+    "justification": "SATA (Serial ATA) é a interface padrão para conectar HDs e SSDs internamente à placa-mãe."
+  },
+  {
+    "id": 22,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A diferença entre HDD e SSD está principalmente:",
+    "options": [
+      "No tamanho físico apenas",
+      "No tipo de interface usada",
+      "Na tecnologia: HDD tem partes mecânicas, SSD usa memória flash",
+      "Na voltagem de operação"
+    ],
+    "answer": 2,
+    "justification": "HDD usa pratos magnéticos giratórios (mecânico), enquanto SSD usa chips de memória flash (eletrônico), sendo mais rápido e resistente a impactos."
+  },
+  {
+    "id": 23,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O 'pipeline' em arquitetura de processadores refere-se a:",
+    "options": [
+      "Cabo de transmissão de dados",
+      "Técnica que divide a execução de instruções em estágios paralelos",
+      "Tipo de barramento serial",
+      "Protocolo de comunicação USB"
+    ],
+    "answer": 1,
+    "justification": "Pipeline divide a execução de instruções em etapas (busca, decodificação, execução), permitindo que várias instruções sejam processadas simultaneamente em estágios diferentes."
+  },
+  {
+    "id": 24,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Qual protocolo de memória RAM é mais recente e mais rápido?",
+    "options": [
+      "DDR2",
+      "DDR3",
+      "DDR4",
+      "DDR (primeira geração)"
+    ],
+    "answer": 2,
+    "justification": "DDR4 é a geração mais recente entre as opções, com maior velocidade, menor consumo de energia e maior capacidade que DDR2 e DDR3."
+  },
+  {
+    "id": 25,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A função da fonte de alimentação no computador é:",
+    "options": [
+      "Processar dados",
+      "Converter a tensão da rede elétrica para os níveis adequados aos componentes",
+      "Armazenar dados quando a energia cai",
+      "Controlar o clock do processador"
+    ],
+    "answer": 1,
+    "justification": "A fonte converte a corrente alternada (AC) da tomada em corrente contínua (DC) nos voltages necessários (12V, 5V, 3,3V) aos componentes internos."
+  },
+  {
+    "id": 26,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Na arquitetura Von Neumann, qual é o princípio fundamental?",
+    "options": [
+      "Processador e memória são integrados no mesmo chip",
+      "Programa e dados compartilham a mesma memória",
+      "Processamento é feito por hardware dedicado por tarefa",
+      "Dados trafegam em barramento óptico"
+    ],
+    "answer": 1,
+    "justification": "A arquitetura de Von Neumann define que instruções (programa) e dados ficam na mesma memória, acessados pelo mesmo barramento, diferente da Arquitetura Harvard."
+  },
+  {
+    "id": 27,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "A diferença entre arquitetura RISC e CISC é:",
+    "options": [
+      "RISC usa mais transistores; CISC usa menos",
+      "RISC tem conjunto reduzido de instruções simples; CISC tem instruções complexas e variadas",
+      "RISC é exclusivo para servidores; CISC para desktops",
+      "Não há diferença prática"
+    ],
+    "answer": 1,
+    "justification": "RISC (Reduced Instruction Set Computer) usa poucas instruções simples, executadas em 1 ciclo. CISC (Complex Instruction Set Computer) tem instruções complexas que fazem mais operações por instrução."
+  },
+  {
+    "id": 28,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é memória virtual?",
+    "options": [
+      "RAM extra conectada por USB",
+      "Técnica que usa espaço em disco como extensão da RAM",
+      "Tipo especial de cache L3",
+      "Memória embutida no processador"
+    ],
+    "answer": 1,
+    "justification": "Memória virtual usa parte do disco rígido (arquivo de paginação/swap) como extensão da RAM física, permitindo executar mais programas do que a RAM comportaria."
+  },
+  {
+    "id": 29,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Qual tecnologia permite que um único núcleo físico do processador execute duas threads simultaneamente?",
+    "options": [
+      "Overclocking",
+      "Hyper-Threading (Intel) / SMT (AMD)",
+      "SMP",
+      "Cache prefetching"
+    ],
+    "answer": 1,
+    "justification": "Hyper-Threading (Intel) e SMT (AMD) fazem com que um núcleo físico apareça como dois núcleos lógicos, melhorando o paralelismo de threads."
+  },
+  {
+    "id": 30,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é DMA (Direct Memory Access)?",
+    "options": [
+      "Tipo de disco rígido de alta velocidade",
+      "Mecanismo que permite transferência de dados entre periférico e memória sem envolver o processador",
+      "Protocolo de acesso remoto",
+      "Módulo de administração de energia"
+    ],
+    "answer": 1,
+    "justification": "DMA permite que controladores de periféricos transfiram dados diretamente para/da memória RAM sem precisar da CPU, liberando-a para outras tarefas."
+  },
+  {
+    "id": 31,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Em sistemas multiprocessados SMP, o que significa 'memória compartilhada'?",
+    "options": [
+      "Todos os processadores acessam a mesma memória física com o mesmo endereçamento",
+      "Cada processador tem sua memória exclusiva",
+      "A memória é dividida por hardware em partições isoladas",
+      "Processadores não compartilham memória"
+    ],
+    "answer": 0,
+    "justification": "SMP (Symmetric Multiprocessing) usa memória compartilhada: todos os processadores acessam o mesmo espaço de endereçamento, exigindo mecanismos de coerência de cache."
+  },
+  {
+    "id": 32,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é o chipset da placa-mãe?",
+    "options": [
+      "O processador principal",
+      "Conjunto de chips que gerencia comunicação entre CPU, memória e periféricos",
+      "A memória ROM onde fica o BIOS",
+      "O barramento de dados externo"
+    ],
+    "answer": 1,
+    "justification": "O chipset coordena o fluxo de dados entre o processador, memória RAM, slots PCIe e interfaces de E/S, sendo o 'gerente de tráfego' da placa-mãe."
+  },
+  {
+    "id": 33,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O padrão PCIe (PCI Express) é usado principalmente para:",
+    "options": [
+      "Conexão de dispositivos USB",
+      "Instalação de placas de expansão como GPU e SSD NVMe",
+      "Alimentação da placa-mãe",
+      "Comunicação em rede sem fio"
+    ],
+    "answer": 1,
+    "justification": "PCIe é a interface de alta velocidade usada para conectar placas de vídeo, SSDs NVMe, placas de rede e outras placas de expansão à placa-mãe."
+  },
+  {
+    "id": 34,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "O que é um periférico de entrada e saída (E/S)?",
+    "options": [
+      "Apenas o teclado",
+      "Dispositivo que só armazena dados",
+      "Dispositivo que tanto recebe quanto envia dados ao computador",
+      "Apenas o monitor"
+    ],
+    "answer": 2,
+    "justification": "Periféricos E/S (como pen drive, touch screen e modem) tanto enviam dados ao computador quanto recebem dados dele."
+  },
+  {
+    "id": 35,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "Um pen drive é um exemplo de dispositivo de:",
+    "options": [
+      "Processamento",
+      "Armazenamento removível",
+      "Saída exclusivo",
+      "Entrada exclusivo"
+    ],
+    "answer": 1,
+    "justification": "O pen drive usa memória flash para armazenamento de dados e é removível, podendo ser conectado e desconectado a qualquer momento."
+  },
+  {
+    "id": 36,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Qual é a função do cooler (dissipador com ventoinha) em um computador?",
+    "options": [
+      "Aumentar o clock do processador",
+      "Dissipar o calor gerado pelo processador",
+      "Melhorar a qualidade do sinal de vídeo",
+      "Fornecer energia ao processador"
+    ],
+    "answer": 1,
+    "justification": "O cooler dissipa o calor gerado pelo processador durante o processamento, evitando superaquecimento que poderia danificar o componente."
+  },
+  {
+    "id": 37,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "A tecnologia Bluetooth é classificada como:",
+    "options": [
+      "Rede local cabeada",
+      "Tecnologia de comunicação sem fio de curto alcance",
+      "Protocolo de internet",
+      "Interface de armazenamento"
+    ],
+    "answer": 1,
+    "justification": "Bluetooth é uma tecnologia de comunicação sem fio de curto alcance (tipicamente até 10m) usada para conectar periféricos e dispositivos móveis."
+  },
+  {
+    "id": 38,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é overclocking?",
+    "options": [
+      "Técnica de reduzir a frequência do processador para economizar energia",
+      "Prática de operar o processador acima da frequência especificada pelo fabricante",
+      "Tecnologia de resfriamento a líquido",
+      "Tipo de barramento de alta velocidade"
+    ],
+    "answer": 1,
+    "justification": "Overclocking consiste em configurar o processador para rodar em frequência maior que a especificada, aumentando desempenho mas gerando mais calor e risco de instabilidade."
+  },
+  {
+    "id": 39,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Quanto ao número de bits, um sistema operacional de 64 bits em relação a um de 32 bits permite:",
+    "options": [
+      "Apenas processar números maiores",
+      "Endereçar muito mais memória RAM e processar dados em blocos maiores",
+      "Funcionar em processadores mais antigos",
+      "Apenas executar mais programas ao mesmo tempo"
+    ],
+    "answer": 1,
+    "justification": "Um SO de 64 bits pode endereçar teoricamente até 18 exabytes de RAM (vs 4GB no 32 bits) e processa dados em palavras de 64 bits, melhorando desempenho."
+  },
+  {
+    "id": 40,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é o POST (Power-On Self Test)?",
+    "options": [
+      "Programa de pós-instalação do SO",
+      "Autoteste realizado pelo BIOS ao ligar o computador para verificar os componentes",
+      "Protocolo de transferência de arquivos",
+      "Tipo de memória cache"
+    ],
+    "answer": 1,
+    "justification": "O POST é executado pelo BIOS/UEFI ao inicializar o computador para verificar se os componentes de hardware (memória, teclado, etc.) estão funcionando."
+  },
+  {
+    "id": 41,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Na hierarquia de memória, qual a ordem correta da mais rápida para a mais lenta?",
+    "options": [
+      "RAM, Cache, Registradores, HD",
+      "Registradores, Cache L1, Cache L2, RAM, HD",
+      "HD, RAM, Cache, Registradores",
+      "Cache, Registradores, RAM, HD"
+    ],
+    "answer": 1,
+    "justification": "A hierarquia de velocidade (decrescente): Registradores > Cache L1 > Cache L2 > RAM > HD/SSD. Mais rápido = menor capacidade e maior custo."
+  },
+  {
+    "id": 42,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é o princípio de localidade temporal na arquitetura de cache?",
+    "options": [
+      "Dados acessados recentemente tendem a ser acessados novamente em breve",
+      "Dados armazenados fisicamente próximos são acessados juntos",
+      "Cache armazena dados por localização geográfica",
+      "Processador acessa dados em ordem sequencial sempre"
+    ],
+    "answer": 0,
+    "justification": "Localidade temporal: se um dado foi acessado recentemente, há alta probabilidade de ser acessado novamente em breve. Este princípio justifica o uso de cache."
+  },
+  {
+    "id": 43,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é o 'Tratamento de Interrupções' em sistemas computacionais?",
+    "options": [
+      "Pausa forçada de todos os processos",
+      "Mecanismo pelo qual dispositivos externos sinalizam a CPU para atenção imediata",
+      "Falha catastrófica do sistema operacional",
+      "Protocolo de comunicação entre processadores"
+    ],
+    "answer": 1,
+    "justification": "Interrupções são sinais que periféricos enviam à CPU para indicar que precisam de atenção (ex: tecla pressionada). A CPU pausa o processo atual, atende a interrupção e retorna."
+  },
+  {
+    "id": 44,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Qual a diferença entre memória DRAM e SRAM?",
+    "options": [
+      "DRAM é mais rápida; SRAM precisa de refresh",
+      "SRAM é mais rápida mas cara; DRAM precisa de refresh periódico e é mais barata",
+      "DRAM é usada em cache; SRAM na memória principal",
+      "Não há diferença técnica significativa"
+    ],
+    "answer": 1,
+    "justification": "SRAM (usada em cache) é mais rápida por usar flip-flops, mas cara e de menor densidade. DRAM (usada na RAM) usa capacitores que precisam de refresh constante, é mais lenta mas mais barata e densa."
+  },
+  {
+    "id": 45,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é a técnica de 'pipelining' de instruções e qual seu principal problema?",
+    "options": [
+      "Técnica sem problemas conhecidos que sempre aumenta desempenho",
+      "Paralelismo de etapas de execução; principal problema são os hazards (dependências entre instruções)",
+      "Tipo de barramento paralelo; problema é o custo",
+      "Replicação de cache; problema é o consumo de energia"
+    ],
+    "answer": 1,
+    "justification": "Pipeline divide execução em estágios paralelos, mas hazards (dependências de dados ou controle entre instruções consecutivas) podem causar stalls (bolhas), reduzindo eficiência."
+  },
+  {
+    "id": 46,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Em relação ao formato de armazenamento NVMe, é correto afirmar:",
+    "options": [
+      "É um protocolo de rede sem fio",
+      "É uma interface para SSDs que usa o barramento PCIe, muito mais rápida que SATA",
+      "É exclusivo para HDs mecânicos",
+      "É um formato de arquivo de vídeo"
+    ],
+    "answer": 1,
+    "justification": "NVMe (Non-Volatile Memory Express) é um protocolo otimizado para SSDs via PCIe, com latências muito menores e largura de banda várias vezes superior ao SATA."
+  },
+  {
+    "id": 47,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é RAID 1?",
+    "options": [
+      "Distribuição de dados em múltiplos discos para velocidade",
+      "Espelhamento: dados duplicados em dois discos simultaneamente para redundância",
+      "Combinação de RAID 0 e RAID 5",
+      "Uso de disco de paridade para recuperação"
+    ],
+    "answer": 1,
+    "justification": "RAID 1 (Mirroring) duplica os dados em dois discos simultaneamente. Se um falhar, o outro mantém todos os dados íntegros, garantindo redundância."
+  },
+  {
+    "id": 48,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "O que é o 'Branch Prediction' em processadores modernos?",
+    "options": [
+      "Técnica de previsão de falhas de hardware",
+      "Mecanismo que antecipa qual caminho de desvio condicional será tomado, buscando instruções antecipadamente",
+      "Algoritmo de compressão de dados",
+      "Método de distribuição de carga entre núcleos"
+    ],
+    "answer": 1,
+    "justification": "Branch prediction tenta adivinhar o resultado de desvios condicionais (if/else) antes de avaliá-los, buscando as instruções prováveis e evitando stalls no pipeline."
+  },
+  {
+    "id": 49,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O padrão de rede Wi-Fi 802.11ac opera em qual faixa de frequência?",
+    "options": [
+      "2,4 GHz apenas",
+      "5 GHz principalmente (também 2,4 GHz em alguns casos)",
+      "10 GHz",
+      "900 MHz"
+    ],
+    "answer": 1,
+    "justification": "O padrão 802.11ac (Wi-Fi 5) opera principalmente na faixa de 5 GHz, oferecendo maior velocidade e menos interferência que o 2,4 GHz."
+  },
+  {
+    "id": 50,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Difícil",
+    "question": "Qual das opções descreve corretamente o funcionamento da memória cache em relação à hit rate?",
+    "options": [
+      "Hit rate é a taxa de falhas do cache",
+      "Hit rate alta indica que a maioria dos dados buscados é encontrada no cache, aumentando o desempenho",
+      "Hit rate é irrelevante para desempenho",
+      "Cache com hit rate baixo processa mais rápido"
+    ],
+    "answer": 1,
+    "justification": "Hit rate é a porcentagem de acessos em que o dado é encontrado no cache (cache hit). Quanto maior, menor o tempo médio de acesso à memória e maior o desempenho."
+  },
+  {
+    "id": 51,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é o 'northbridge' em arquiteturas de chipset tradicionais?",
+    "options": [
+      "Chip que gerencia comunicação de alta velocidade entre CPU, RAM e GPU",
+      "Chip responsável por USB, áudio e SATA",
+      "O mesmo que o processador principal",
+      "Tipo de conector de alimentação"
+    ],
+    "answer": 0,
+    "justification": "O northbridge (MCH) gerenciava comunicação de alta velocidade entre CPU, RAM e PCIe. Em arquiteturas modernas, foi integrado ao próprio processador."
+  },
+  {
+    "id": 52,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "O que é um driver de dispositivo?",
+    "options": [
+      "Programa que instala o sistema operacional",
+      "Software que permite o SO se comunicar com um hardware específico",
+      "Utilitário para desfragmentação de disco",
+      "Ferramenta de backup de dados"
+    ],
+    "answer": 1,
+    "justification": "Drivers são softwares que atuam como tradutores entre o sistema operacional e o hardware, permitindo que o SO utilize periféricos como impressoras, placas de vídeo e redes."
+  },
+  {
+    "id": 53,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "O que é desfragmentação de disco e em qual tipo de dispositivo ela é recomendada?",
+    "options": [
+      "Recuperação de arquivos apagados; recomendado para SSDs",
+      "Reorganização de fragmentos de arquivos para acesso mais rápido; recomendado para HDs mecânicos",
+      "Formatação rápida; recomendado para qualquer disco",
+      "Backup automático; recomendado para pen drives"
+    ],
+    "answer": 1,
+    "justification": "A desfragmentação reorganiza os fragmentos espalhados de arquivos no HD para que fiquem contíguos, melhorando o tempo de acesso mecânico. Não é recomendada para SSDs (reduz vida útil sem benefício)."
+  },
+  {
+    "id": 54,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Médio",
+    "question": "Qual a capacidade máxima de um DVD simples (single-layer)?",
+    "options": [
+      "700 MB",
+      "4,7 GB",
+      "25 GB",
+      "1,44 MB"
+    ],
+    "answer": 1,
+    "justification": "Um DVD single-layer armazena 4,7 GB. CD armazena 700 MB. Blu-ray single-layer armazena 25 GB."
+  },
+  {
+    "id": 55,
+    "category": "Hardware e Arquitetura",
+    "difficulty": "Fácil",
+    "question": "O que é o 'slot' de expansão na placa-mãe?",
+    "options": [
+      "Encaixe para módulos de memória RAM",
+      "Conector para dispositivos de armazenamento",
+      "Conector que permite adicionar placas de expansão (vídeo, som, rede) ao sistema",
+      "Porta de comunicação USB"
+    ],
+    "answer": 2,
+    "justification": "Slots de expansão (como PCIe, AGP, PCI) permitem inserir placas adicionais na placa-mãe para ampliar as funcionalidades do computador."
+  },
+  {
+    "id": 56,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O modelo OSI é composto por quantas camadas?",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": 2,
+    "justification": "O modelo OSI (Open Systems Interconnection) define 7 camadas: Física, Enlace, Rede, Transporte, Sessão, Apresentação e Aplicação."
+  },
+  {
+    "id": 57,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O protocolo IP (Internet Protocol) opera em qual camada do modelo OSI?",
+    "options": [
+      "Camada de Enlace",
+      "Camada de Rede",
+      "Camada de Transporte",
+      "Camada de Aplicação"
+    ],
+    "answer": 1,
+    "justification": "O protocolo IP opera na Camada de Rede (camada 3), responsável pelo endereçamento lógico e roteamento de pacotes."
+  },
+  {
+    "id": 58,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O protocolo TCP garante:",
+    "options": [
+      "Transmissão sem confirmação de entrega",
+      "Entrega confiável e ordenada de dados com controle de fluxo",
+      "Alta velocidade sem retransmissão",
+      "Comunicação apenas em redes locais"
+    ],
+    "answer": 1,
+    "justification": "TCP (Transmission Control Protocol) é orientado à conexão e garante entrega confiável, ordenada e sem duplicação através de confirmações (ACK) e retransmissões."
+  },
+  {
+    "id": 59,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O protocolo UDP difere do TCP principalmente por:",
+    "options": [
+      "Ser mais lento e confiável",
+      "Ser sem conexão, sem garantia de entrega, mas mais rápido",
+      "Usar criptografia nativa",
+      "Ser exclusivo para redes locais"
+    ],
+    "answer": 1,
+    "justification": "UDP (User Datagram Protocol) é sem conexão e sem garantia de entrega, mas tem menor overhead, sendo preferido em aplicações de tempo real (streaming, VoIP)."
+  },
+  {
+    "id": 60,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O endereço IP versão 4 (IPv4) é composto por:",
+    "options": [
+      "128 bits em notação hexadecimal",
+      "32 bits em notação decimal pontuada",
+      "64 bits em notação octal",
+      "16 bits em notação binária"
+    ],
+    "answer": 1,
+    "justification": "IPv4 usa 32 bits, representados em 4 octetos decimais separados por pontos (ex: 192.168.1.1), totalizando cerca de 4 bilhões de endereços."
+  },
+  {
+    "id": 61,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O protocolo HTTP opera na camada de:",
+    "options": [
+      "Rede",
+      "Transporte",
+      "Aplicação",
+      "Física"
+    ],
+    "answer": 2,
+    "justification": "HTTP (HyperText Transfer Protocol) é um protocolo da camada de Aplicação (camada 7 do OSI), usado para transferência de páginas web."
+  },
+  {
+    "id": 62,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "DNS (Domain Name System) tem a função de:",
+    "options": [
+      "Criptografar dados transmitidos na web",
+      "Traduzir nomes de domínio (ex: www.ifce.edu.br) para endereços IP",
+      "Gerenciar conexões TCP",
+      "Distribuir endereços IP automaticamente na rede"
+    ],
+    "answer": 1,
+    "justification": "DNS é o sistema que traduz nomes de domínio legíveis por humanos em endereços IP numéricos que os computadores utilizam."
+  },
+  {
+    "id": 63,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "O que é DHCP?",
+    "options": [
+      "Protocolo de segurança para VPNs",
+      "Protocolo que distribui endereços IP automaticamente aos dispositivos da rede",
+      "Serviço de resolução de nomes",
+      "Protocolo de transferência de arquivos"
+    ],
+    "answer": 1,
+    "justification": "DHCP (Dynamic Host Configuration Protocol) atribui automaticamente endereços IP e configurações de rede aos dispositivos quando se conectam."
+  },
+  {
+    "id": 64,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "Um roteador opera principalmente em qual camada do modelo OSI?",
+    "options": [
+      "Camada Física",
+      "Camada de Enlace",
+      "Camada de Rede",
+      "Camada de Transporte"
+    ],
+    "answer": 2,
+    "justification": "Roteadores operam na Camada de Rede (camada 3), tomando decisões de encaminhamento com base em endereços IP."
+  },
+  {
+    "id": 65,
+    "category": "Redes de Computadores",
+    "difficulty": "Fácil",
+    "question": "Um switch opera principalmente em qual camada do modelo OSI?",
+    "options": [
+      "Camada Física",
+      "Camada de Enlace (Camada 2)",
+      "Camada de Rede",
+      "Camada de Aplicação"
+    ],
+    "answer": 1,
+    "justification": "Switches operam na camada de Enlace (camada 2), encaminhando frames baseados em endereços MAC aprendidos em sua tabela CAM."
+  },
+  {
+    "id": 66,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O endereço IPv6 é composto por:",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "256 bits"
+    ],
+    "answer": 2,
+    "justification": "IPv6 usa 128 bits, representados em notação hexadecimal com 8 grupos de 4 dígitos (ex: 2001:0db8::1), suportando um número imensamente maior de endereços que o IPv4."
+  },
+  {
+    "id": 67,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "A máscara de sub-rede 255.255.255.0 em notação CIDR equivale a:",
+    "options": [
+      "/8",
+      "/16",
+      "/24",
+      "/32"
+    ],
+    "answer": 2,
+    "justification": "A máscara 255.255.255.0 tem 24 bits '1' consecutivos, equivalendo a /24 em notação CIDR (Classless Inter-Domain Routing)."
+  },
+  {
+    "id": 68,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Qual protocolo é usado para envio de e-mails (submissão pelo cliente ao servidor)?",
+    "options": [
+      "POP3",
+      "IMAP",
+      "SMTP",
+      "FTP"
+    ],
+    "answer": 2,
+    "justification": "SMTP (Simple Mail Transfer Protocol) é o protocolo usado para enviar e-mails do cliente ao servidor e entre servidores de e-mail."
+  },
+  {
+    "id": 69,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "A diferença entre POP3 e IMAP no recebimento de e-mails é:",
+    "options": [
+      "POP3 usa criptografia; IMAP não",
+      "POP3 baixa e remove do servidor; IMAP sincroniza e mantém no servidor",
+      "POP3 é mais recente; IMAP é obsoleto",
+      "Não há diferença prática entre os dois"
+    ],
+    "answer": 1,
+    "justification": "POP3 baixa os e-mails e os remove do servidor por padrão. IMAP sincroniza e mantém as mensagens no servidor, permitindo acesso de múltiplos dispositivos."
+  },
+  {
+    "id": 70,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O protocolo FTP serve para:",
+    "options": [
+      "Navegação em páginas web",
+      "Transferência de arquivos entre cliente e servidor",
+      "Envio de e-mails",
+      "Resolução de nomes de domínio"
+    ],
+    "answer": 1,
+    "justification": "FTP (File Transfer Protocol) é usado para transferir arquivos entre um cliente e um servidor FTP, operando nas portas 20 (dados) e 21 (controle)."
+  },
+  {
+    "id": 71,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "HTTPS difere de HTTP principalmente por:",
+    "options": [
+      "Ser mais lento em todas as situações",
+      "Usar criptografia TLS/SSL para proteger a comunicação",
+      "Operar em uma camada OSI diferente",
+      "Não suportar cookies"
+    ],
+    "answer": 1,
+    "justification": "HTTPS é o HTTP sobre TLS/SSL, que criptografa os dados em trânsito, garantindo confidencialidade e autenticidade da comunicação."
+  },
+  {
+    "id": 72,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é NAT (Network Address Translation)?",
+    "options": [
+      "Técnica de criptografia de pacotes",
+      "Mecanismo que traduz endereços IP privados em públicos, permitindo compartilhamento de um IP público",
+      "Protocolo de roteamento dinâmico",
+      "Método de segmentação de redes"
+    ],
+    "answer": 1,
+    "justification": "NAT permite que múltiplos dispositivos com IPs privados compartilhem um único IP público, sendo amplamente usado em roteadores domésticos."
+  },
+  {
+    "id": 73,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Qual é a faixa de endereços IP privados classe C?",
+    "options": [
+      "10.0.0.0 a 10.255.255.255",
+      "172.16.0.0 a 172.31.255.255",
+      "192.168.0.0 a 192.168.255.255",
+      "169.254.0.0 a 169.254.255.255"
+    ],
+    "answer": 2,
+    "justification": "Endereços privados Classe C: 192.168.0.0/16. Classe A: 10.0.0.0/8. Classe B: 172.16.0.0/12. 169.254.x.x é APIPA (atribuição automática sem DHCP)."
+  },
+  {
+    "id": 74,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é uma VLAN?",
+    "options": [
+      "Rede virtual que segmenta logicamente uma rede física em domínios de broadcast separados",
+      "Tipo de cabo de rede",
+      "Protocolo de roteamento",
+      "Ferramenta de análise de tráfego"
+    ],
+    "answer": 0,
+    "justification": "VLAN (Virtual LAN) segmenta logicamente uma rede física, criando domínios de broadcast separados sem necessidade de hardware adicional."
+  },
+  {
+    "id": 75,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O protocolo ICMP é usado principalmente para:",
+    "options": [
+      "Transferência de arquivos",
+      "Mensagens de controle e diagnóstico de rede (ex: ping)",
+      "Atribuição de endereços IP",
+      "Criptografia de dados"
+    ],
+    "answer": 1,
+    "justification": "ICMP (Internet Control Message Protocol) transmite mensagens de controle, erro e diagnóstico. O comando 'ping' usa mensagens ICMP Echo Request/Reply."
+  },
+  {
+    "id": 76,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Qual a porta padrão do protocolo HTTP?",
+    "options": [
+      "21",
+      "25",
+      "80",
+      "443"
+    ],
+    "answer": 2,
+    "justification": "HTTP usa a porta 80. FTP controle: 21. SMTP: 25. HTTPS: 443."
+  },
+  {
+    "id": 77,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Qual a porta padrão do HTTPS?",
+    "options": [
+      "80",
+      "8080",
+      "443",
+      "22"
+    ],
+    "answer": 2,
+    "justification": "HTTPS opera na porta 443 por padrão. HTTP usa 80, SSH usa 22, e 8080 é porta alternativa comum para HTTP."
+  },
+  {
+    "id": 78,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é um firewall?",
+    "options": [
+      "Dispositivo que amplifica o sinal de rede",
+      "Sistema que monitora e controla o tráfego de rede com base em regras de segurança",
+      "Protocolo de roteamento dinâmico",
+      "Serviço de backup em nuvem"
+    ],
+    "answer": 1,
+    "justification": "Firewall é um dispositivo (hardware ou software) que filtra o tráfego de rede, permitindo ou bloqueando conexões com base em regras de segurança configuradas."
+  },
+  {
+    "id": 79,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é uma VPN (Virtual Private Network)?",
+    "options": [
+      "Rede local sem fio",
+      "Tecnologia que cria um túnel criptografado sobre uma rede pública para comunicação segura",
+      "Protocolo de e-mail seguro",
+      "Tipo de switch gerenciável"
+    ],
+    "answer": 1,
+    "justification": "VPN cria um canal de comunicação criptografado sobre redes públicas (Internet), permitindo acesso seguro como se o usuário estivesse na rede privada."
+  },
+  {
+    "id": 80,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Em redes, o que é um broadcast?",
+    "options": [
+      "Mensagem enviada de um para um",
+      "Mensagem enviada de um para todos os dispositivos no mesmo segmento de rede",
+      "Mensagem criptografada ponto a ponto",
+      "Protocolo de descoberta de serviços"
+    ],
+    "answer": 1,
+    "justification": "Broadcast é uma transmissão enviada para todos os dispositivos no mesmo domínio de broadcast (ex: 192.168.1.255 para a rede 192.168.1.0/24)."
+  },
+  {
+    "id": 81,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é o 'Three-Way Handshake' do protocolo TCP?",
+    "options": [
+      "Troca de três chaves criptográficas",
+      "Processo de estabelecimento de conexão: SYN → SYN-ACK → ACK",
+      "Protocolo de autenticação em três etapas",
+      "Mecanismo de retransmissão em três tentativas"
+    ],
+    "answer": 1,
+    "justification": "O three-way handshake TCP estabelece conexão: cliente envia SYN, servidor responde SYN-ACK, cliente confirma com ACK. Só então a conexão está estabelecida."
+  },
+  {
+    "id": 82,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é subnetting?",
+    "options": [
+      "Protocolo de roteamento entre roteadores",
+      "Divisão de uma rede maior em sub-redes menores para melhor gerenciamento e segurança",
+      "Técnica de criptografia em camada de rede",
+      "Método de compressão de pacotes IP"
+    ],
+    "answer": 1,
+    "justification": "Subnetting divide uma rede IP em sub-redes menores através da manipulação da máscara, melhorando organização, segurança e utilização de endereços."
+  },
+  {
+    "id": 83,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O protocolo de roteamento OSPF é classificado como:",
+    "options": [
+      "Protocolo vetor-distância",
+      "Protocolo de estado de enlace (link-state)",
+      "Protocolo de roteamento externo (EGP)",
+      "Protocolo de camada 2"
+    ],
+    "answer": 1,
+    "justification": "OSPF (Open Shortest Path First) é um protocolo de estado de enlace: cada roteador mapeia toda a topologia e calcula o menor caminho com o algoritmo de Dijkstra."
+  },
+  {
+    "id": 84,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "Qual a diferença entre roteamento estático e dinâmico?",
+    "options": [
+      "Estático é mais rápido em redes grandes; dinâmico usa mais memória",
+      "Estático tem rotas configuradas manualmente; dinâmico usa protocolos para aprender rotas automaticamente",
+      "Dinâmico é mais seguro; estático permite ataques",
+      "Não há diferença prática"
+    ],
+    "answer": 1,
+    "justification": "Roteamento estático: administrador configura rotas manualmente. Roteamento dinâmico: protocolos (OSPF, BGP, RIP) trocam informações e calculam rotas automaticamente."
+  },
+  {
+    "id": 85,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é o protocolo BGP e onde é usado?",
+    "options": [
+      "Protocolo de roteamento interno de redes corporativas",
+      "Protocolo de roteamento entre sistemas autônomos (AS) na internet, usado por ISPs",
+      "Protocolo de segurança para VPNs",
+      "Protocolo de resolução de endereços MAC"
+    ],
+    "answer": 1,
+    "justification": "BGP (Border Gateway Protocol) é o protocolo de roteamento entre sistemas autônomos da Internet, sendo o protocolo que mantém as tabelas de roteamento da Internet global."
+  },
+  {
+    "id": 86,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "No contexto de redes, o que é QoS (Quality of Service)?",
+    "options": [
+      "Sistema de monitoramento de ataques",
+      "Mecanismo que prioriza tipos de tráfego para garantir desempenho para aplicações críticas",
+      "Protocolo de criptografia",
+      "Método de backup de configurações"
+    ],
+    "answer": 1,
+    "justification": "QoS permite priorizar tráfegos críticos (VoIP, vídeo) sobre outros menos prioritários, garantindo largura de banda, baixa latência e jitter controlado para aplicações sensíveis."
+  },
+  {
+    "id": 87,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é o endereço MAC?",
+    "options": [
+      "Endereço lógico atribuído pelo roteador",
+      "Identificador físico único gravado na interface de rede pelo fabricante",
+      "Endereço IP privado de classe A",
+      "Identificador de domínio na internet"
+    ],
+    "answer": 1,
+    "justification": "MAC (Media Access Control) é um endereço físico de 48 bits (ex: 00:1A:2B:3C:4D:5E) gravado na placa de rede pelo fabricante, único para cada interface."
+  },
+  {
+    "id": 88,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O protocolo ARP serve para:",
+    "options": [
+      "Resolução de nomes de domínio em IPs",
+      "Descoberta do endereço MAC correspondente a um IP na rede local",
+      "Atribuição dinâmica de endereços IP",
+      "Criptografia de comunicação"
+    ],
+    "answer": 1,
+    "justification": "ARP (Address Resolution Protocol) descobre o endereço MAC de um dispositivo a partir de seu endereço IP, necessário para comunicação na camada de enlace."
+  },
+  {
+    "id": 89,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O protocolo SSH (Secure Shell) é usado para:",
+    "options": [
+      "Navegação web segura",
+      "Acesso remoto seguro via linha de comando com criptografia",
+      "Transferência de e-mails criptografados",
+      "Sincronização de relógio em rede"
+    ],
+    "answer": 1,
+    "justification": "SSH provê acesso remoto seguro a sistemas via linha de comando, usando criptografia para proteger autenticação e dados transmitidos. Opera na porta 22."
+  },
+  {
+    "id": 90,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é topologia de rede estrela?",
+    "options": [
+      "Todos os dispositivos conectados em um único cabo",
+      "Cada dispositivo conectado a um nó central (switch/hub)",
+      "Dispositivos interligados em anel",
+      "Rede sem ponto central de conexão"
+    ],
+    "answer": 1,
+    "justification": "Na topologia estrela, todos os dispositivos se conectam a um ponto central (switch). Falha em um cabo afeta apenas aquele dispositivo; falha no switch afeta toda a rede."
+  },
+  {
+    "id": 91,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Qual a diferença entre hub e switch?",
+    "options": [
+      "Hub é mais moderno e inteligente",
+      "Hub envia dados para todas as portas; switch envia apenas para a porta de destino",
+      "Switch é mais lento que hub",
+      "Não há diferença técnica"
+    ],
+    "answer": 1,
+    "justification": "Hub replica os dados em todas as portas (camada 1), causando colisões. Switch aprende endereços MAC e envia frames apenas à porta de destino (camada 2), sendo mais eficiente."
+  },
+  {
+    "id": 92,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "A largura de banda de uma rede refere-se a:",
+    "options": [
+      "Distância máxima do cabo",
+      "Quantidade máxima de dados transmitidos por unidade de tempo (bps)",
+      "Número de dispositivos suportados",
+      "Latência da conexão"
+    ],
+    "answer": 1,
+    "justification": "Largura de banda é a capacidade máxima de transmissão, medida em bits por segundo (bps, Mbps, Gbps). Não confundir com latência (tempo de resposta)."
+  },
+  {
+    "id": 93,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é latência em redes?",
+    "options": [
+      "Quantidade de dados transmitidos por segundo",
+      "Tempo necessário para um pacote viajar da origem ao destino",
+      "Número de pacotes perdidos",
+      "Capacidade de armazenamento do roteador"
+    ],
+    "answer": 1,
+    "justification": "Latência é o atraso de propagação de um pacote entre origem e destino. É crítica em aplicações de tempo real como VoIP e jogos online."
+  },
+  {
+    "id": 94,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O protocolo NTP é usado para:",
+    "options": [
+      "Transferência de arquivos",
+      "Sincronização de relógio entre dispositivos de rede",
+      "Atribuição de IPs",
+      "Roteamento dinâmico"
+    ],
+    "answer": 1,
+    "justification": "NTP (Network Time Protocol) sincroniza os relógios dos dispositivos em rede, fundamental para logs, segurança e coordenação de sistemas distribuídos."
+  },
+  {
+    "id": 95,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é um ataque DDoS?",
+    "options": [
+      "Ataque de força bruta a senhas",
+      "Ataque distribuído de negação de serviço, usando múltiplos sistemas para sobrecarregar um servidor",
+      "Interceptação de comunicação criptografada",
+      "Invasão de sistema por exploração de vulnerabilidade de software"
+    ],
+    "answer": 1,
+    "justification": "DDoS (Distributed Denial of Service) usa uma botnet (rede de computadores infectados) para enviar tráfego massivo a um alvo, tornando-o indisponível para usuários legítimos."
+  },
+  {
+    "id": 96,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é o protocolo TLS e qual sua função?",
+    "options": [
+      "Protocolo de roteamento dinâmico",
+      "Protocolo de segurança que provê criptografia, autenticidade e integridade para comunicação em rede",
+      "Protocolo de resolução de nomes",
+      "Protocolo de gerenciamento de endereços IP"
+    ],
+    "answer": 1,
+    "justification": "TLS (Transport Layer Security), sucessor do SSL, criptografa a comunicação entre cliente e servidor, garantindo confidencialidade (ninguém lê), integridade (ninguém altera) e autenticidade."
+  },
+  {
+    "id": 97,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O padrão Ethernet 1000BASE-T opera a:",
+    "options": [
+      "10 Mbps",
+      "100 Mbps",
+      "1 Gbps",
+      "10 Gbps"
+    ],
+    "answer": 2,
+    "justification": "1000BASE-T (Gigabit Ethernet) opera a 1 Gbps via cabo UTP categoria 5e ou superior. BASE indica banda base, T indica cabo de par trançado."
+  },
+  {
+    "id": 98,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é um proxy reverso?",
+    "options": [
+      "Servidor que encaminha requisições de clientes para servidores internos, ocultando a infraestrutura",
+      "Tipo de firewall de pacotes",
+      "Cliente que se conecta via VPN",
+      "Protocolo de backup"
+    ],
+    "answer": 0,
+    "justification": "Proxy reverso fica à frente dos servidores, recebendo requisições externas e distribuindo-as aos servidores internos. Oferece balanceamento de carga, cache e segurança."
+  },
+  {
+    "id": 99,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "Qual é a função do protocolo SNMP?",
+    "options": [
+      "Criptografia de dados em trânsito",
+      "Gerenciamento e monitoramento de dispositivos de rede",
+      "Autenticação de usuários na rede",
+      "Roteamento entre sistemas autônomos"
+    ],
+    "answer": 1,
+    "justification": "SNMP (Simple Network Management Protocol) permite monitorar e gerenciar dispositivos de rede (roteadores, switches, servidores), coletando métricas e enviando alertas."
+  },
+  {
+    "id": 100,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "Na arquitetura TCP/IP, o modelo de camadas é:",
+    "options": [
+      "Física, Enlace, Rede, Transporte, Sessão, Apresentação, Aplicação",
+      "Acesso à rede, Internet, Transporte, Aplicação",
+      "Hardware, Software, Serviços, Aplicação",
+      "Física, Rede, Transporte, Aplicação"
+    ],
+    "answer": 1,
+    "justification": "O modelo TCP/IP original tem 4 camadas: Acesso à Rede (física+enlace), Internet (IP), Transporte (TCP/UDP) e Aplicação (HTTP, FTP, DNS...)."
+  },
+  {
+    "id": 101,
+    "category": "Redes de Computadores",
+    "difficulty": "Difícil",
+    "question": "O que é Spanning Tree Protocol (STP)?",
+    "options": [
+      "Protocolo para montar árvores de diretório em servidores",
+      "Protocolo que evita loops em redes com switches redundantes",
+      "Protocolo de roteamento entre data centers",
+      "Método de criptografia de chave pública"
+    ],
+    "answer": 1,
+    "justification": "STP evita loops de rede ao bloquear caminhos redundantes entre switches, mantendo apenas um caminho ativo. Em caso de falha, ativa automaticamente o caminho alternativo."
+  },
+  {
+    "id": 102,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O cabeamento Cat 6 em relação ao Cat 5e:",
+    "options": [
+      "É mais lento e mais barato",
+      "Suporta maior frequência (250 MHz vs 100 MHz) e menor interferência",
+      "São tecnicamente equivalentes",
+      "Cat 5e suporta Gigabit; Cat 6 não"
+    ],
+    "answer": 1,
+    "justification": "Cat 6 opera em 250 MHz (vs 100 MHz do Cat 5e), com melhor blindagem, menor crosstalk e suporte a 10 Gbps em distâncias curtas (vs 1 Gbps no Cat 5e)."
+  },
+  {
+    "id": 103,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "Uma rede WAN (Wide Area Network) é:",
+    "options": [
+      "Rede restrita a um único edifício",
+      "Rede que abrange grandes distâncias geográficas (cidades, países, continentes)",
+      "Rede sem fio local",
+      "Rede exclusiva para servidores"
+    ],
+    "answer": 1,
+    "justification": "WAN cobre grandes distâncias geográficas, como a Internet. LAN cobre área local (escritório/edifício), MAN cobre área metropolitana."
+  },
+  {
+    "id": 104,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é um IDS (Intrusion Detection System)?",
+    "options": [
+      "Sistema que bloqueia automaticamente intrusos",
+      "Sistema que monitora e detecta atividades suspeitas na rede, gerando alertas",
+      "Protocolo de autenticação",
+      "Ferramenta de gerenciamento de senhas"
+    ],
+    "answer": 1,
+    "justification": "IDS detecta e alerta sobre possíveis intrusões e atividades maliciosas na rede, mas não age para bloqueá-las (diferente do IPS, que bloqueia)."
+  },
+  {
+    "id": 105,
+    "category": "Redes de Computadores",
+    "difficulty": "Médio",
+    "question": "O que é o protocolo LDAP?",
+    "options": [
+      "Protocolo de transferência de e-mail",
+      "Protocolo para acesso e manutenção de serviços de diretório distribuído",
+      "Protocolo de roteamento dinâmico",
+      "Protocolo de sincronização de arquivos"
+    ],
+    "answer": 1,
+    "justification": "LDAP (Lightweight Directory Access Protocol) acessa e gerencia serviços de diretório como Active Directory, armazenando informações de usuários, grupos e recursos."
+  },
+  {
+    "id": 106,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "Qual é a principal função de um Sistema Operacional?",
+    "options": [
+      "Executar aplicativos de usuário diretamente",
+      "Gerenciar recursos de hardware e fornecer interface entre hardware e software",
+      "Armazenar dados do usuário",
+      "Conectar o computador à internet"
+    ],
+    "answer": 1,
+    "justification": "O SO gerencia CPU, memória, dispositivos de E/S e sistema de arquivos, além de fornecer serviços aos programas e interface ao usuário."
+  },
+  {
+    "id": 107,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "Qual dos sistemas operacionais abaixo é de código aberto (open source)?",
+    "options": [
+      "Windows 11",
+      "macOS Ventura",
+      "Linux",
+      "MS-DOS"
+    ],
+    "answer": 2,
+    "justification": "Linux é um kernel de código aberto desenvolvido sob licença GPL. Windows e macOS são proprietários."
+  },
+  {
+    "id": 108,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O que é um processo em Sistemas Operacionais?",
+    "options": [
+      "Um arquivo executável armazenado em disco",
+      "Um programa em execução, incluindo seu código, dados e estado",
+      "O núcleo do sistema operacional",
+      "Uma partição do disco rígido"
+    ],
+    "answer": 1,
+    "justification": "Processo é uma instância de um programa em execução. Inclui código, dados, pilha, registradores e o PCB (Process Control Block) gerenciado pelo SO."
+  },
+  {
+    "id": 109,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O que é multitarefa (multitasking) em SO?",
+    "options": [
+      "Execução de tarefas em múltiplos computadores",
+      "Capacidade de executar múltiplos processos aparentemente ao mesmo tempo em um processador",
+      "Uso de múltiplos processadores físicos",
+      "Execução de apenas uma tarefa por vez"
+    ],
+    "answer": 1,
+    "justification": "Multitarefa é a capacidade do SO de compartilhar a CPU entre múltiplos processos, alternando rapidamente entre eles (time-sharing), dando impressão de paralelismo."
+  },
+  {
+    "id": 110,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O 'Kernel' de um sistema operacional é:",
+    "options": [
+      "A interface gráfica do usuário",
+      "O núcleo do SO que gerencia diretamente os recursos de hardware",
+      "O gerenciador de arquivos",
+      "O antivírus integrado"
+    ],
+    "answer": 1,
+    "justification": "O kernel é o núcleo do SO, com acesso total ao hardware. Gerencia processos, memória, sistema de arquivos e dispositivos de E/S."
+  },
+  {
+    "id": 111,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O sistema de arquivos NTFS é nativo de qual sistema operacional?",
+    "options": [
+      "Linux",
+      "macOS",
+      "Windows",
+      "Android"
+    ],
+    "answer": 2,
+    "justification": "NTFS (New Technology File System) é o sistema de arquivos padrão do Windows NT e versões posteriores (XP, 7, 10, 11)."
+  },
+  {
+    "id": 112,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O que é o Windows Registry (Registro do Windows)?",
+    "options": [
+      "Banco de dados que armazena configurações do sistema, hardware e aplicativos do Windows",
+      "Lista de arquivos na área de trabalho",
+      "Ferramenta de backup",
+      "Gerenciador de atualizações"
+    ],
+    "answer": 0,
+    "justification": "O Registro é um banco de dados hierárquico do Windows que armazena configurações do SO, drivers, hardware e aplicativos instalados."
+  },
+  {
+    "id": 113,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O que é um vírus de computador?",
+    "options": [
+      "Software de otimização de desempenho",
+      "Programa malicioso que se replica e se anexa a arquivos legítimos para se propagar",
+      "Tipo de firewall",
+      "Protocolo de rede"
+    ],
+    "answer": 1,
+    "justification": "Vírus é um malware que se replica inserindo cópias de si mesmo em outros arquivos/programas, necessitando de um hospedeiro para se propagar."
+  },
+  {
+    "id": 114,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "O que é um worm (verme)?",
+    "options": [
+      "Vírus que afeta apenas documentos",
+      "Malware que se auto-replica e se propaga pela rede sem necessitar de um arquivo hospedeiro",
+      "Tipo de antivírus",
+      "Falha de hardware"
+    ],
+    "answer": 1,
+    "justification": "Worm se auto-replica e se propaga autonomamente pelas redes, sem necessitar de um arquivo hospedeiro, diferente do vírus."
+  },
+  {
+    "id": 115,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Fácil",
+    "question": "Phishing é uma técnica que:",
+    "options": [
+      "Sobrecarrega servidores com requisições",
+      "Tenta enganar usuários para obter informações confidenciais (senhas, dados bancários)",
+      "Criptografa arquivos para pedir resgate",
+      "Monitora o tráfego de rede"
+    ],
+    "answer": 1,
+    "justification": "Phishing usa e-mails, sites falsos e mensagens fraudulentas para enganar usuários e roubar credenciais e dados pessoais."
+  },
+  {
+    "id": 116,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é escalonamento de processos no SO?",
+    "options": [
+      "Organização de arquivos no disco",
+      "Mecanismo que decide qual processo receberá a CPU em cada momento",
+      "Técnica de compressão de dados",
+      "Método de criptografia"
+    ],
+    "answer": 1,
+    "justification": "O escalonador de processos decide a ordem e o tempo de CPU de cada processo, usando algoritmos como FCFS, Round Robin, SJF e prioridade."
+  },
+  {
+    "id": 117,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O algoritmo de escalonamento Round Robin usa o conceito de:",
+    "options": [
+      "Processo mais curto primeiro",
+      "Fatia de tempo (quantum) em que cada processo executa ciclicamente",
+      "Prioridade estática",
+      "Processo mais longo primeiro"
+    ],
+    "answer": 1,
+    "justification": "Round Robin aloca um quantum (fatia de tempo) igual para cada processo em fila circular, sendo justo e evitando starvation."
+  },
+  {
+    "id": 118,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é 'deadlock' (impasse) em SO?",
+    "options": [
+      "Falha de hardware irrecuperável",
+      "Situação em que dois ou mais processos ficam bloqueados esperando por recursos que os outros detêm",
+      "Ataque de negação de serviço",
+      "Erro de formatação de disco"
+    ],
+    "answer": 1,
+    "justification": "Deadlock ocorre quando processos ficam esperando indefinidamente por recursos retidos por outros, formando um ciclo de espera sem resolução."
+  },
+  {
+    "id": 119,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é memória swap (ou paginação em disco)?",
+    "options": [
+      "Tipo de memória RAM mais rápida",
+      "Espaço em disco usado como extensão virtual da RAM quando ela está cheia",
+      "Partição de recuperação do sistema",
+      "Cache de disco"
+    ],
+    "answer": 1,
+    "justification": "Swap é um espaço em disco que o SO usa quando a RAM está cheia, paginando processos menos ativos para o disco e liberando RAM para processos ativos."
+  },
+  {
+    "id": 120,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "A diferença entre processo e thread é:",
+    "options": [
+      "Thread tem espaço de memória próprio; processo compartilha com outros",
+      "Processos são mais leves; threads são mais pesados",
+      "Threads compartilham o espaço de memória do processo pai; processos têm memória isolada",
+      "Não há diferença técnica"
+    ],
+    "answer": 2,
+    "justification": "Processos têm espaços de memória isolados. Threads são subunidades de um processo que compartilham memória, sendo mais leves para criar e comunicar."
+  },
+  {
+    "id": 121,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um ransomware?",
+    "options": [
+      "Ferramenta de backup",
+      "Malware que criptografa arquivos e exige pagamento (resgate) para descriptografar",
+      "Antivírus avançado",
+      "Tipo de worm inofensivo"
+    ],
+    "answer": 1,
+    "justification": "Ransomware criptografa os arquivos da vítima e exige pagamento (geralmente em criptomoeda) pela chave de descriptografia. Ex: WannaCry, Petya."
+  },
+  {
+    "id": 122,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um rootkit?",
+    "options": [
+      "Software de atualização do sistema",
+      "Malware projetado para se esconder no sistema, dificultando detecção e dando acesso privilegiado ao atacante",
+      "Ferramenta de análise de desempenho",
+      "Tipo de firewall avançado"
+    ],
+    "answer": 1,
+    "justification": "Rootkit se instala em nível profundo (kernel, boot) para ocultar sua presença e de outros malwares, mantendo acesso privilegiado não autorizado."
+  },
+  {
+    "id": 123,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um trojan (Cavalo de Troia)?",
+    "options": [
+      "Vírus que se replica automaticamente pela rede",
+      "Malware que se disfarça de software legítimo para ser instalado voluntariamente pela vítima",
+      "Tipo de ataque de rede",
+      "Ferramenta de criptografia"
+    ],
+    "answer": 1,
+    "justification": "Trojan se apresenta como software útil/legítimo, mas executa ações maliciosas (backdoor, roubo de dados) sem o conhecimento do usuário."
+  },
+  {
+    "id": 124,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é autenticação de dois fatores (2FA)?",
+    "options": [
+      "Uso de dois sistemas operacionais",
+      "Processo de verificação de identidade usando dois métodos distintos (ex: senha + token)",
+      "Criptografia com duas chaves",
+      "Backup duplicado de dados"
+    ],
+    "answer": 1,
+    "justification": "2FA exige dois tipos de autenticação: algo que você sabe (senha), algo que você tem (token/celular) ou algo que você é (biometria), aumentando a segurança."
+  },
+  {
+    "id": 125,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O conceito de 'menor privilégio' em segurança significa:",
+    "options": [
+      "Dar aos usuários apenas os direitos mínimos necessários para realizar suas funções",
+      "Usar senhas curtas para facilitar acesso",
+      "Compartilhar contas de administrador entre usuários",
+      "Desativar firewalls para melhor desempenho"
+    ],
+    "answer": 0,
+    "justification": "O princípio do menor privilégio (least privilege) determina que usuários e processos devem ter apenas os acessos mínimos necessários, limitando danos em caso de comprometimento."
+  },
+  {
+    "id": 126,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é criptografia simétrica?",
+    "options": [
+      "Usa chaves diferentes para cifrar e decifrar",
+      "Usa a mesma chave para cifrar e decifrar",
+      "Não usa chaves, apenas certificados",
+      "Criptografa apenas metadados"
+    ],
+    "answer": 1,
+    "justification": "Criptografia simétrica (ex: AES, DES) usa a mesma chave secreta para cifrar e decifrar. É mais rápida, mas requer distribuição segura da chave."
+  },
+  {
+    "id": 127,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é criptografia assimétrica?",
+    "options": [
+      "Usa a mesma chave para cifrar e decifrar",
+      "Usa par de chaves: pública (cifrar) e privada (decifrar)",
+      "É mais lenta que a simétrica e menos segura",
+      "Usada apenas para compressão de dados"
+    ],
+    "answer": 1,
+    "justification": "Criptografia assimétrica (ex: RSA) usa um par de chaves matematicamente relacionadas. A chave pública pode ser distribuída livremente; a privada é mantida em segredo."
+  },
+  {
+    "id": 128,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é engenharia social em segurança da informação?",
+    "options": [
+      "Uso de software para invadir sistemas",
+      "Manipulação psicológica de pessoas para obter informações ou acesso não autorizado",
+      "Técnica de programação segura",
+      "Método de criptografia avançado"
+    ],
+    "answer": 1,
+    "justification": "Engenharia social explora o fator humano, enganando pessoas (não sistemas) para revelar informações confidenciais ou executar ações prejudiciais. Phishing é uma forma."
+  },
+  {
+    "id": 129,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é backup e qual a estratégia 3-2-1?",
+    "options": [
+      "Cópia de segurança; 3 cópias em 2 tipos de mídia com 1 off-site",
+      "Cópia de segurança; 3 dias de retenção em 2 locais com 1 senha",
+      "Versão do sistema; 3 versões em 2 servidores com 1 nuvem",
+      "Cópia de segurança; 3 formatos em 2 cópias com 1 verificação"
+    ],
+    "answer": 0,
+    "justification": "A estratégia 3-2-1: mantenha 3 cópias dos dados, em 2 tipos de mídia diferentes, com 1 cópia offsite (fora do local), protegendo contra múltiplos cenários de falha."
+  },
+  {
+    "id": 130,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "A diferença entre IDS e IPS é:",
+    "options": [
+      "IDS bloqueia; IPS apenas detecta",
+      "IDS detecta e alerta; IPS detecta e bloqueia ativamente",
+      "IDS é hardware; IPS é software",
+      "Não há diferença funcional"
+    ],
+    "answer": 1,
+    "justification": "IDS (Intrusion Detection System) detecta e alerta sobre atividades suspeitas. IPS (Intrusion Prevention System) também detecta, mas bloqueia automaticamente as ameaças."
+  },
+  {
+    "id": 131,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é um buffer overflow?",
+    "options": [
+      "Excesso de dados em rede causando lentidão",
+      "Vulnerabilidade onde dados além do tamanho do buffer sobrescrevem memória adjacente, podendo executar código malicioso",
+      "Falha de disco por excesso de gravações",
+      "Erro de configuração do firewall"
+    ],
+    "answer": 1,
+    "justification": "Buffer overflow ocorre quando um programa não valida o tamanho da entrada e dados extras sobrescrevem áreas de memória adjacentes, podendo alterar o fluxo de execução ou injetar código malicioso."
+  },
+  {
+    "id": 132,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é o conceito de DMZ (Demilitarized Zone) em segurança de redes?",
+    "options": [
+      "Área de rede sem proteção",
+      "Segmento de rede isolado entre a internet e a rede interna, onde ficam serviços públicos",
+      "Tipo de VPN",
+      "Zona de backup de dados"
+    ],
+    "answer": 1,
+    "justification": "DMZ é uma sub-rede entre a internet e a rede interna, onde ficam servidores públicos (web, e-mail). Limita o acesso a recursos internos mesmo se o servidor na DMZ for comprometido."
+  },
+  {
+    "id": 133,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é o princípio de 'defesa em profundidade'?",
+    "options": [
+      "Usar apenas um firewall muito robusto",
+      "Estratégia de múltiplas camadas de segurança, de forma que se uma falhar, as outras ainda protegem",
+      "Usar criptografia em todos os dados",
+      "Atualizar o sistema operacional frequentemente"
+    ],
+    "answer": 1,
+    "justification": "Defesa em profundidade implementa múltiplas camadas de proteção (firewall, IDS, antivírus, controle de acesso, criptografia), garantindo que a falha de um não comprometa todo o sistema."
+  },
+  {
+    "id": 134,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é SQL Injection?",
+    "options": [
+      "Técnica de otimização de consultas",
+      "Ataque que insere código SQL malicioso em campos de entrada para manipular o banco de dados",
+      "Método de criptografia de banco de dados",
+      "Protocolo de comunicação com banco de dados"
+    ],
+    "answer": 1,
+    "justification": "SQL Injection explora falhas de validação de entrada para inserir comandos SQL maliciosos, podendo ler, modificar ou deletar dados, ou até executar comandos no servidor."
+  },
+  {
+    "id": 135,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é XSS (Cross-Site Scripting)?",
+    "options": [
+      "Ataque de negação de serviço",
+      "Vulnerabilidade que permite injetar scripts maliciosos em páginas web visualizadas por outros usuários",
+      "Tipo de ataque man-in-the-middle",
+      "Técnica de engenharia reversa"
+    ],
+    "answer": 1,
+    "justification": "XSS injeta scripts maliciosos (geralmente JavaScript) em páginas web, que são executados no navegador das vítimas, permitindo roubo de cookies, sessões ou redirecionamento."
+  },
+  {
+    "id": 136,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é um ataque Man-in-the-Middle (MitM)?",
+    "options": [
+      "Ataque que sobrecarrega o servidor",
+      "Atacante se posiciona entre duas partes interceptando e podendo modificar a comunicação",
+      "Injeção de código em banco de dados",
+      "Ataque por dicionário a senhas"
+    ],
+    "answer": 1,
+    "justification": "MitM o atacante intercepta comunicação entre dois sistemas, podendo ler, modificar ou injetar dados sem que as vítimas percebam. HTTPS com certificados válidos mitiga esse risco."
+  },
+  {
+    "id": 137,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é hashing e para que é usado em segurança?",
+    "options": [
+      "Técnica de compressão de arquivos",
+      "Função que transforma dados em valor fixo (hash) de forma irreversível, usada para verificar integridade e senhas",
+      "Tipo de criptografia simétrica",
+      "Protocolo de autenticação em rede"
+    ],
+    "answer": 1,
+    "justification": "Hash (ex: SHA-256, MD5) gera um valor único de tamanho fixo para qualquer entrada. É unidirecional (irreversível) e usado para armazenar senhas e verificar integridade de arquivos."
+  },
+  {
+    "id": 138,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um certificado digital SSL/TLS?",
+    "options": [
+      "Documento que comprova propriedade de um domínio e contém a chave pública para comunicação segura",
+      "Tipo de protocolo de roteamento",
+      "Licença de uso de software",
+      "Arquivo de configuração do servidor"
+    ],
+    "answer": 0,
+    "justification": "Certificado digital é emitido por uma CA (Autoridade Certificadora), autentica a identidade do servidor e contém a chave pública usada no estabelecimento de conexão TLS."
+  },
+  {
+    "id": 139,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "Qual sistema de arquivos é tipicamente usado no Linux?",
+    "options": [
+      "NTFS",
+      "FAT32",
+      "ext4",
+      "exFAT"
+    ],
+    "answer": 2,
+    "justification": "ext4 (Fourth Extended Filesystem) é o sistema de arquivos padrão da maioria das distribuições Linux. NTFS é do Windows; FAT32 e exFAT são mais usados em mídias removíveis."
+  },
+  {
+    "id": 140,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é virtualização?",
+    "options": [
+      "Uso de memória flash em servidores",
+      "Tecnologia que cria versões virtuais de hardware, SO ou recursos, permitindo múltiplos ambientes em um único hardware físico",
+      "Tipo de backup em nuvem",
+      "Protocolo de rede virtualizado"
+    ],
+    "answer": 1,
+    "justification": "Virtualização (ex: VMware, VirtualBox, Hyper-V) permite executar múltiplos SO e ambientes isolados em um único hardware físico, otimizando recursos."
+  },
+  {
+    "id": 141,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é computação em nuvem (cloud computing)?",
+    "options": [
+      "Armazenamento exclusivamente em servidores locais",
+      "Disponibilização de recursos computacionais (servidores, armazenamento, software) pela internet sob demanda",
+      "Tipo de rede sem fio",
+      "Tecnologia de backup em fita"
+    ],
+    "answer": 1,
+    "justification": "Cloud computing oferece recursos de TI (IaaS, PaaS, SaaS) via internet, sob demanda e pagamento por uso, sem necessidade de infraestrutura local própria."
+  },
+  {
+    "id": 142,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "A diferença entre SaaS, PaaS e IaaS em cloud computing é:",
+    "options": [
+      "São apenas nomes diferentes para o mesmo serviço",
+      "SaaS oferece software pronto; PaaS oferece plataforma para desenvolvimento; IaaS oferece infraestrutura virtual",
+      "IaaS é mais completo que SaaS",
+      "PaaS é apenas para aplicações móveis"
+    ],
+    "answer": 1,
+    "justification": "SaaS (Gmail, Office365): software pronto para uso. PaaS (Google App Engine): plataforma para desenvolver. IaaS (AWS EC2, Azure VMs): infraestrutura virtual (servidores, redes, armazenamento)."
+  },
+  {
+    "id": 143,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é controle de acesso baseado em papéis (RBAC)?",
+    "options": [
+      "Acesso definido individualmente para cada usuário",
+      "Modelo onde permissões são associadas a papéis (roles) e usuários recebem papéis, não permissões diretas",
+      "Acesso baseado em localização geográfica",
+      "Sistema de autenticação biométrica"
+    ],
+    "answer": 1,
+    "justification": "RBAC (Role-Based Access Control) associa permissões a papéis (ex: admin, editor, leitor) e atribui papéis aos usuários, simplificando gestão de acessos."
+  },
+  {
+    "id": 144,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é LGPD e qual sua relevância para segurança da informação?",
+    "options": [
+      "Lei de gestão de redes privadas",
+      "Lei Geral de Proteção de Dados: regula o tratamento de dados pessoais, exigindo medidas de segurança e privacidade",
+      "Protocolo de gestão de senhas",
+      "Regulamento técnico de criptografia"
+    ],
+    "answer": 1,
+    "justification": "A LGPD (Lei 13.709/2018) regulamenta o tratamento de dados pessoais no Brasil, exigindo consentimento, transparência, segurança adequada e responsabilização no uso de dados."
+  },
+  {
+    "id": 145,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "Em criptografia, o que é uma função de hash criptográfico seguro?",
+    "options": [
+      "Função reversível usada para compressão",
+      "Função determinística, unidirecional, resistente a colisões e a ataques de pré-imagem",
+      "Algoritmo de criptografia simétrica",
+      "Método de geração de chaves RSA"
+    ],
+    "answer": 1,
+    "justification": "Hash criptográfico seguro (SHA-256, SHA-3) deve ser: determinístico, rápido de calcular, irreversível (pré-imagem), resistente a colisões (dois inputs com mesmo hash) e com efeito avalanche."
+  },
+  {
+    "id": 146,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um keylogger?",
+    "options": [
+      "Software de gestão de senhas",
+      "Malware que registra tudo que é digitado no teclado, capturando senhas e dados confidenciais",
+      "Programa de otimização de CPU",
+      "Tipo de firewall de aplicação"
+    ],
+    "answer": 1,
+    "justification": "Keylogger monitora e registra as teclas digitadas pelo usuário, enviando as informações ao atacante para capturar senhas, dados bancários e outras informações sensíveis."
+  },
+  {
+    "id": 147,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é Controle de Acesso Obrigatório (MAC)?",
+    "options": [
+      "Modelo onde usuários controlam o acesso aos próprios recursos",
+      "Modelo onde o SO impõe políticas de acesso baseadas em classificações de segurança, sem controle do usuário",
+      "Modelo baseado em papéis",
+      "Autenticação por endereço MAC"
+    ],
+    "answer": 1,
+    "justification": "MAC (Mandatory Access Control) classifica recursos e usuários em níveis de segurança. O SO impõe as regras de acesso independente da vontade do dono do recurso."
+  },
+  {
+    "id": 148,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um spyware?",
+    "options": [
+      "Software de monitoramento de rede legítimo",
+      "Malware que coleta informações do usuário sem consentimento e as envia a terceiros",
+      "Tipo de vírus que destrói arquivos",
+      "Ferramenta de administração remota"
+    ],
+    "answer": 1,
+    "justification": "Spyware monitora atividades do usuário (navegação, digitação, capturas de tela) e envia informações sem conhecimento ou consentimento, violando privacidade."
+  },
+  {
+    "id": 149,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é adware?",
+    "options": [
+      "Software de auditoria de rede",
+      "Software que exibe anúncios indesejados e pode coletar dados de navegação para direcionar publicidade",
+      "Antivírus gratuito",
+      "Ferramenta de compressão"
+    ],
+    "answer": 1,
+    "justification": "Adware exibe anúncios indesejados ao usuário, geralmente instalado junto com software gratuito. Pode coletar dados de navegação, comprometendo a privacidade."
+  },
+  {
+    "id": 150,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é o conceito de 'Zero Trust' em segurança?",
+    "options": [
+      "Sistema sem autenticação de usuários",
+      "Modelo de segurança que não confia em ninguém por padrão, verificando sempre identidade e contexto antes de conceder acesso",
+      "Política de acesso público irrestrito",
+      "Técnica de criptografia sem chaves"
+    ],
+    "answer": 1,
+    "justification": "Zero Trust assume que nenhum usuário ou dispositivo é confiável por padrão, mesmo dentro da rede interna. Sempre verifica identidade, dispositivo, contexto e aplica menor privilégio."
+  },
+  {
+    "id": 151,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é um 'exploit'?",
+    "options": [
+      "Software legítimo de diagnóstico",
+      "Código ou técnica que se aproveita de uma vulnerabilidade para executar ações não autorizadas em um sistema",
+      "Tipo de antivírus",
+      "Protocolo de atualização de software"
+    ],
+    "answer": 1,
+    "justification": "Exploit é um código, script ou sequência de comandos que se aproveita de uma vulnerabilidade (bug) específica em software ou hardware para comprometer o sistema."
+  },
+  {
+    "id": 152,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é uma DMZ na segurança de redes corporativas?",
+    "options": [
+      "Rede completamente pública sem controle",
+      "Zona de rede separada entre a internet e a rede interna, onde ficam servidores acessíveis publicamente",
+      "Tipo de protocolo de criptografia",
+      "Ferramenta de monitoramento"
+    ],
+    "answer": 1,
+    "justification": "DMZ (Demilitarized Zone) isola servidores públicos (web, e-mail) entre dois firewalls, protegendo a rede interna caso um servidor da DMZ seja comprometido."
+  },
+  {
+    "id": 153,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "A política de senhas seguras recomenda:",
+    "options": [
+      "Senhas curtas e simples para fácil memorização",
+      "Senhas longas com combinação de maiúsculas, minúsculas, números e caracteres especiais",
+      "Usar a mesma senha em todos os sistemas",
+      "Senhas com apenas números"
+    ],
+    "answer": 1,
+    "justification": "Senhas seguras devem ser longas (12+ caracteres), complexas (maiúsculas, minúsculas, números, símbolos), únicas por serviço e trocadas periodicamente."
+  },
+  {
+    "id": 154,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Médio",
+    "question": "O que é um sistema de detecção de intrusão baseado em assinatura?",
+    "options": [
+      "Sistema que aprende comportamentos normais",
+      "Sistema que compara tráfego a um banco de assinaturas de ataques conhecidos para detectar ameaças",
+      "Firewall de próxima geração",
+      "Sistema baseado em machine learning"
+    ],
+    "answer": 1,
+    "justification": "IDS baseado em assinatura compara o tráfego com padrões (assinaturas) de ataques conhecidos. É eficaz contra ataques conhecidos mas não detecta ameaças novas (zero-day)."
+  },
+  {
+    "id": 155,
+    "category": "Sistemas Operacionais e Segurança",
+    "difficulty": "Difícil",
+    "question": "O que é uma vulnerabilidade zero-day?",
+    "options": [
+      "Vulnerabilidade que não oferece risco real",
+      "Falha de segurança desconhecida pelo fabricante para a qual ainda não existe correção (patch)",
+      "Bug corrigido no mesmo dia",
+      "Vulnerabilidade em sistemas legados desatualizados"
+    ],
+    "answer": 1,
+    "justification": "Zero-day é uma vulnerabilidade desconhecida pelo fabricante ou público, para a qual não existe patch. Atacantes a exploram antes que seja descoberta e corrigida."
+  },
+  {
+    "id": 156,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "A Lei nº 12.527/2011 é conhecida como:",
+    "options": [
+      "Lei de Crimes Cibernéticos",
+      "Lei de Acesso à Informação",
+      "Lei Geral de Proteção de Dados",
+      "Lei de Responsabilidade Fiscal"
+    ],
+    "answer": 1,
+    "justification": "A Lei nº 12.527/2011 (LAI) regula o acesso a informações públicas previsto na Constituição Federal, garantindo transparência dos atos da Administração Pública."
+  },
+  {
+    "id": 157,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "A LGPD (Lei Geral de Proteção de Dados) é a Lei nº:",
+    "options": [
+      "12.965/2014",
+      "13.709/2018",
+      "12.527/2011",
+      "9.507/1997"
+    ],
+    "answer": 1,
+    "justification": "A LGPD é a Lei nº 13.709/2018, que regula o tratamento de dados pessoais no Brasil, alinhada ao GDPR europeu."
+  },
+  {
+    "id": 158,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "O Marco Civil da Internet no Brasil é a Lei nº:",
+    "options": [
+      "13.709/2018",
+      "12.527/2011",
+      "12.965/2014",
+      "9.279/1996"
+    ],
+    "answer": 2,
+    "justification": "O Marco Civil da Internet é a Lei nº 12.965/2014, que estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil."
+  },
+  {
+    "id": 159,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "A Lei Carolina Dieckmann (Lei nº 12.737/2012) trata de:",
+    "options": [
+      "Proteção de dados pessoais",
+      "Tipificação de crimes cibernéticos como invasão de dispositivo alheio",
+      "Regulação do comércio eletrônico",
+      "Acesso à informação pública"
+    ],
+    "answer": 1,
+    "justification": "A Lei nº 12.737/2012 tipificou crimes cibernéticos no Código Penal, incluindo invasão de dispositivo informático, interrupção de serviço e falsificação de cartão."
+  },
+  {
+    "id": 160,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "Segundo a LGPD, dado pessoal é:",
+    "options": [
+      "Apenas CPF e RG",
+      "Qualquer informação relacionada a pessoa natural identificada ou identificável",
+      "Somente dados bancários",
+      "Apenas dados médicos"
+    ],
+    "answer": 1,
+    "justification": "A LGPD define dado pessoal como qualquer informação que permita identificar ou tornar identificável uma pessoa natural (nome, CPF, e-mail, IP, localização, etc.)."
+  },
+  {
+    "id": 161,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "Qual órgão é responsável pela fiscalização da LGPD no Brasil?",
+    "options": [
+      "Ministério da Justiça",
+      "ANPD - Autoridade Nacional de Proteção de Dados",
+      "ANATEL",
+      "STJ"
+    ],
+    "answer": 1,
+    "justification": "A ANPD (Autoridade Nacional de Proteção de Dados) é o órgão responsável por zelar pela proteção dos dados pessoais, fiscalizar e aplicar sanções pela LGPD."
+  },
+  {
+    "id": 162,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "A Constituição Federal de 1988 trata da proteção de dados pessoais no artigo:",
+    "options": [
+      "5º, inciso XII (sigilo das comunicações)",
+      "37 (Administração Pública)",
+      "196 (saúde)",
+      "205 (educação)"
+    ],
+    "answer": 0,
+    "justification": "O art. 5º, XII da CF/88 assegura o sigilo das comunicações. A EC 115/2022 incluiu a proteção de dados pessoais como direito fundamental no mesmo artigo."
+  },
+  {
+    "id": 163,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "O que é propriedade intelectual no contexto de software?",
+    "options": [
+      "Apenas a proteção de marcas comerciais",
+      "Conjunto de direitos que protege criações do intelecto humano, incluindo software",
+      "Direito de uso do hardware",
+      "Proteção apenas de patentes industriais"
+    ],
+    "answer": 1,
+    "justification": "Propriedade intelectual protege criações intelectuais, incluindo software (protegido por direitos autorais no Brasil), marcas, patentes e segredos industriais."
+  },
+  {
+    "id": 164,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "No Brasil, o software é protegido pela Lei nº:",
+    "options": [
+      "9.279/1996 (Propriedade Industrial)",
+      "9.610/1998 (Direitos Autorais)",
+      "9.609/1998 (Proteção de Software)",
+      "8.078/1990 (Código do Consumidor)"
+    ],
+    "answer": 2,
+    "justification": "A Lei nº 9.609/1998 (Lei de Software) dispõe sobre a proteção da propriedade intelectual de programa de computador no Brasil."
+  },
+  {
+    "id": 165,
+    "category": "Legislação e Ética",
+    "difficulty": "Fácil",
+    "question": "Pirataria de software consiste em:",
+    "options": [
+      "Usar software open source",
+      "Copiar, distribuir ou usar software sem autorização do detentor dos direitos",
+      "Desenvolver software concorrente",
+      "Vender software legalmente"
+    ],
+    "answer": 1,
+    "justification": "Pirataria é a cópia, distribuição, uso ou venda não autorizada de software protegido por direitos autorais, constituindo crime no Brasil."
+  },
+  {
+    "id": 166,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "Segundo a LAI (Lei 12.527/2011), o prazo para resposta a pedidos de acesso à informação é de:",
+    "options": [
+      "5 dias",
+      "20 dias, prorrogável por mais 10",
+      "30 dias",
+      "60 dias"
+    ],
+    "answer": 1,
+    "justification": "A LAI determina prazo de 20 dias para resposta, prorrogável por mais 10 dias, mediante justificativa expressa."
+  },
+  {
+    "id": 167,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O sigilo de informações classificadas como 'ultrassecretas' pela LAI tem prazo máximo de:",
+    "options": [
+      "5 anos",
+      "15 anos",
+      "25 anos",
+      "50 anos"
+    ],
+    "answer": 2,
+    "justification": "Segundo a LAI: sigiloso = 5 anos, secreto = 15 anos, ultrassecreto = 25 anos. Prazos prorrogáveis uma única vez."
+  },
+  {
+    "id": 168,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O Marco Civil da Internet (Lei 12.965/2014) estabelece como princípio fundamental:",
+    "options": [
+      "Vigilância irrestrita do Estado",
+      "Neutralidade da rede",
+      "Bloqueio de conteúdo sem ordem judicial",
+      "Monitoramento obrigatório de usuários"
+    ],
+    "answer": 1,
+    "justification": "A neutralidade da rede é princípio central do Marco Civil: provedores não podem discriminar pacotes de dados por origem, destino, serviço, protocolo ou conteúdo."
+  },
+  {
+    "id": 169,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "Segundo o Marco Civil, os provedores de conexão devem manter registros de acesso por:",
+    "options": [
+      "30 dias",
+      "6 meses",
+      "1 ano",
+      "5 anos"
+    ],
+    "answer": 2,
+    "justification": "O Marco Civil (art. 13) exige que provedores de conexão mantenham registros de acesso à internet por 1 ano, em ambiente controlado e seguro."
+  },
+  {
+    "id": 170,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A LGPD define como titular de dados:",
+    "options": [
+      "A empresa que coleta os dados",
+      "A pessoa natural a quem se referem os dados pessoais",
+      "O responsável pelo banco de dados",
+      "O operador do sistema"
+    ],
+    "answer": 1,
+    "justification": "Titular é a pessoa natural a quem se referem os dados pessoais objeto de tratamento. A LGPD protege seus direitos de acesso, correção, exclusão e portabilidade."
+  },
+  {
+    "id": 171,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "Na LGPD, o controlador de dados é:",
+    "options": [
+      "O titular dos dados",
+      "Pessoa ou organização que toma as decisões sobre o tratamento dos dados pessoais",
+      "O programador do sistema",
+      "O órgão fiscalizador"
+    ],
+    "answer": 1,
+    "justification": "Controlador é quem decide as finalidades e meios do tratamento dos dados. Operador é quem realiza o tratamento em nome do controlador."
+  },
+  {
+    "id": 172,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "Quais são as bases legais para tratamento de dados pessoais pela LGPD?",
+    "options": [
+      "Apenas consentimento do titular",
+      "Dez hipóteses, incluindo consentimento, obrigação legal, execução de contrato, interesse legítimo",
+      "Apenas determinação judicial",
+      "Apenas interesse público"
+    ],
+    "answer": 1,
+    "justification": "A LGPD prevê 10 bases legais (art. 7º): consentimento, obrigação legal, políticas públicas, pesquisa, execução de contrato, exercício de direitos, proteção da vida, tutela da saúde, interesse legítimo e proteção ao crédito."
+  },
+  {
+    "id": 173,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O Decreto-Lei 5.452/1943 (CLT) em relação ao uso de tecnologia no trabalho prevê:",
+    "options": [
+      "Proibição total de e-mail corporativo",
+      "Regulamentação do teletrabalho e controle do uso de ferramentas digitais pelo empregador",
+      "Obrigatoriedade de internet gratuita",
+      "Monitoramento total sem restrições"
+    ],
+    "answer": 1,
+    "justification": "A CLT, com alterações da Reforma Trabalhista (Lei 13.467/2017), regulamentou o teletrabalho e permite controle patronal das ferramentas corporativas."
+  },
+  {
+    "id": 174,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A Resolução CNJ nº 396/2021 trata de:",
+    "options": [
+      "Uso de dados do Judiciário",
+      "Estratégia Nacional de Segurança Cibernética do Poder Judiciário",
+      "Regulamento de videoconferência",
+      "Proteção de dados em processos físicos"
+    ],
+    "answer": 1,
+    "justification": "A Res. CNJ 396/2021 instituiu a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), estabelecendo diretrizes de cibersegurança."
+  },
+  {
+    "id": 175,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O Decreto nº 9.637/2018 institui:",
+    "options": [
+      "A LGPD",
+      "A Política Nacional de Segurança da Informação",
+      "O Marco Civil da Internet",
+      "A Lei de Acesso à Informação"
+    ],
+    "answer": 1,
+    "justification": "O Decreto 9.637/2018 institui a Política Nacional de Segurança da Informação (PNSI) para o Poder Executivo Federal."
+  },
+  {
+    "id": 176,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O código de ética do servidor público federal é regido pelo Decreto nº:",
+    "options": [
+      "1.171/1994",
+      "9.637/2018",
+      "5.825/2006",
+      "7.724/2012"
+    ],
+    "answer": 0,
+    "justification": "O Decreto nº 1.171/1994 aprovou o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal."
+  },
+  {
+    "id": 177,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A Lei nº 8.429/1992 trata de:",
+    "options": [
+      "Proteção de dados pessoais",
+      "Improbidade administrativa",
+      "Acesso à informação",
+      "Licitações públicas"
+    ],
+    "answer": 1,
+    "justification": "A Lei de Improbidade Administrativa (Lei 8.429/92), alterada pela Lei 14.230/2021, tipifica atos de improbidade e prevê sanções a agentes públicos que deles se beneficiem."
+  },
+  {
+    "id": 178,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "Segundo o código de ética do servidor público, são deveres do servidor, EXCETO:",
+    "options": [
+      "Ser leal às instituições",
+      "Agir com probidade",
+      "Usar o cargo para benefício próprio",
+      "Exercer suas atribuições com rapidez"
+    ],
+    "answer": 2,
+    "justification": "Usar o cargo para benefício próprio é vedado, não um dever. Os deveres incluem lealdade, probidade, eficiência e interesse público."
+  },
+  {
+    "id": 179,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A Lei nº 12.846/2013 (Lei Anticorrupção) responsabiliza:",
+    "options": [
+      "Apenas pessoas físicas por atos de corrupção",
+      "Pessoas jurídicas por atos lesivos contra a Administração Pública",
+      "Somente servidores públicos",
+      "Apenas crimes ambientais"
+    ],
+    "answer": 1,
+    "justification": "A Lei Anticorrupção responsabiliza objetivamente as pessoas jurídicas por atos lesivos à Administração Pública nacional ou estrangeira, independente de culpa."
+  },
+  {
+    "id": 180,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O princípio da publicidade na Administração Pública significa:",
+    "options": [
+      "Fazer propaganda de governo",
+      "Transparência: os atos administrativos devem ser divulgados e acessíveis aos cidadãos",
+      "Publicar apenas atos favoráveis",
+      "Sigilo total das informações"
+    ],
+    "answer": 1,
+    "justification": "Publicidade é um dos princípios do art. 37 da CF/88: os atos da Administração devem ser transparentes e acessíveis, ressalvados os casos de sigilo legal."
+  },
+  {
+    "id": 181,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "Quais são os princípios da Administração Pública previstos no art. 37 da CF/88?",
+    "options": [
+      "Legalidade, Legitimidade, Economicidade, Impessoalidade, Moralidade",
+      "Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (LIMPE)",
+      "Hierarquia, Legalidade, Moralidade, Publicidade, Eficiência",
+      "Legalidade, Impessoalidade, Publicidade, Eficiência, Transparência"
+    ],
+    "answer": 1,
+    "justification": "O art. 37 da CF/88 estabelece os princípios LIMPE: Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência."
+  },
+  {
+    "id": 182,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "A Lei nº 8.112/1990 dispõe sobre:",
+    "options": [
+      "Licitações públicas",
+      "Regime Jurídico dos Servidores Públicos Civis da União",
+      "Responsabilidade fiscal",
+      "Proteção de dados"
+    ],
+    "answer": 1,
+    "justification": "A Lei 8.112/90 institui o Regime Jurídico Único dos servidores públicos civis da União, das autarquias e das fundações públicas federais."
+  },
+  {
+    "id": 183,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "Segundo a LGPD, o encarregado de dados (DPO) tem como função:",
+    "options": [
+      "Tomar decisões sobre uso dos dados",
+      "Ser o canal de comunicação entre o controlador, titulares e a ANPD",
+      "Auditar financeiramente a empresa",
+      "Desenvolver sistemas de proteção"
+    ],
+    "answer": 1,
+    "justification": "O DPO (Data Protection Officer) / Encarregado é responsável por: aceitar reclamações dos titulares, comunicar-se com a ANPD e orientar funcionários sobre LGPD."
+  },
+  {
+    "id": 184,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "Em caso de incidente de segurança com dados pessoais, a LGPD exige que o controlador notifique:",
+    "options": [
+      "Apenas os titulares afetados",
+      "A ANPD e, quando necessário, os titulares, em prazo razoável",
+      "Apenas o Ministério Público",
+      "Nenhuma notificação é obrigatória"
+    ],
+    "answer": 1,
+    "justification": "Art. 48 da LGPD: o controlador deve comunicar à ANPD e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante."
+  },
+  {
+    "id": 185,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "O crime de invasão de dispositivo informático (art. 154-A do Código Penal, inserido pela Lei 12.737/2012) prevê pena de:",
+    "options": [
+      "Multa apenas",
+      "Detenção de 3 meses a 1 ano, e multa",
+      "Reclusão de 1 a 4 anos",
+      "Advertência administrativa"
+    ],
+    "answer": 1,
+    "justification": "O art. 154-A do CP tipifica a invasão de dispositivo informático com pena de detenção de 3 meses a 1 ano e multa, aumentada se resultar em prejuízo econômico ou for cometida contra autoridades."
+  },
+  {
+    "id": 186,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O direito ao esquecimento digital, conforme a LGPD, permite ao titular:",
+    "options": [
+      "Apagar qualquer informação da internet",
+      "Solicitar a eliminação de dados pessoais desnecessários ou tratados em desconformidade",
+      "Exigir que empresas apaguem todo seu histórico",
+      "Proibir qualquer menção a seu nome"
+    ],
+    "answer": 1,
+    "justification": "A LGPD garante ao titular o direito de solicitar a eliminação dos dados pessoais tratados com seu consentimento ou desnecessários, excessivos ou em desconformidade."
+  },
+  {
+    "id": 187,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O que é conflito de interesses para o servidor público?",
+    "options": [
+      "Discordar de colegas de trabalho",
+      "Situação em que interesses privados do servidor podem influenciar o exercício imparcial de suas funções públicas",
+      "Exercer dois cargos públicos",
+      "Recusar ordens ilegais"
+    ],
+    "answer": 1,
+    "justification": "Conflito de interesses ocorre quando o servidor tem interesse pessoal que pode comprometer a imparcialidade no exercício do cargo. A Lei 12.813/2013 regulamenta o tema."
+  },
+  {
+    "id": 188,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A Lei de Licitações (Lei nº 14.133/2021) substituiu:",
+    "options": [
+      "Apenas a Lei 8.666/1993",
+      "As Leis 8.666/1993, 10.520/2002 e partes do Estatuto das Estatais",
+      "Apenas o pregão eletrônico",
+      "Apenas contratos acima de R$ 1 milhão"
+    ],
+    "answer": 1,
+    "justification": "A Nova Lei de Licitações (14.133/2021) substituiu a Lei 8.666/93 e a Lei do Pregão (10.520/02), unificando o regime de contratações públicas."
+  },
+  {
+    "id": 189,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O habeas data é um remédio constitucional que garante ao cidadão:",
+    "options": [
+      "Liberdade de locomoção",
+      "Acesso e correção de informações pessoais em registros públicos ou de caráter público",
+      "Acesso a documentos sigilosos do governo",
+      "Proteção contra prisão ilegal"
+    ],
+    "answer": 1,
+    "justification": "Habeas data (art. 5º, LXXII, CF) assegura o conhecimento de informações relativas ao requerente constantes de registros e bancos de dados de entidades governamentais ou de caráter público, e sua retificação."
+  },
+  {
+    "id": 190,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O Decreto nº 10.046/2019 dispõe sobre:",
+    "options": [
+      "Política de segurança cibernética",
+      "Compartilhamento de dados no âmbito do Poder Executivo Federal",
+      "Regulamentação da LGPD",
+      "Lei de acesso à informação"
+    ],
+    "answer": 1,
+    "justification": "O Decreto 10.046/2019 regulamenta o compartilhamento de dados cadastrais entre órgãos e entidades do Poder Executivo Federal, criando o Cadastro Base do Cidadão."
+  },
+  {
+    "id": 191,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O princípio da legalidade na Administração Pública significa que:",
+    "options": [
+      "O servidor pode fazer tudo que não é proibido",
+      "A Administração só pode fazer o que a lei expressamente autoriza",
+      "Os atos ilegais são permitidos se justificados",
+      "Leis podem ser ignoradas por conveniência"
+    ],
+    "answer": 1,
+    "justification": "Na Administração Pública, o princípio da legalidade é inverso ao privado: o particular pode fazer tudo que não é proibido; o administrador público só pode fazer o que a lei permite."
+  },
+  {
+    "id": 192,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "A norma ABNT NBR ISO/IEC 27001 trata de:",
+    "options": [
+      "Gestão de qualidade de software",
+      "Sistema de Gestão de Segurança da Informação (SGSI)",
+      "Proteção de dados pessoais",
+      "Gestão de redes de computadores"
+    ],
+    "answer": 1,
+    "justification": "A ISO/IEC 27001 especifica os requisitos para estabelecer, implementar, manter e melhorar um Sistema de Gestão de Segurança da Informação (SGSI) nas organizações."
+  },
+  {
+    "id": 193,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "A IN SGD/ME nº 1/2019 estabelece:",
+    "options": [
+      "Diretrizes de contratação de soluções de TIC para a Administração Pública Federal",
+      "Normas de proteção de dados pessoais",
+      "Regulamento de licitações de TI",
+      "Política de uso de internet nos órgãos"
+    ],
+    "answer": 0,
+    "justification": "A IN SGD/ME 1/2019 orienta e disciplina as contratações de Soluções de Tecnologia da Informação e Comunicação pelos órgãos da APF, seguindo o PDTIC."
+  },
+  {
+    "id": 194,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "O Acórdão 2.471/2008 do TCU dispõe sobre boas práticas em:",
+    "options": [
+      "Licitações de obras",
+      "Governança e Gestão de TI na Administração Pública",
+      "Proteção de dados",
+      "Auditoria contábil"
+    ],
+    "answer": 1,
+    "justification": "O Acórdão TCU 2.471/2008-Plenário trata de governança de TI nos órgãos federais, recomendando adoção de boas práticas como COBIT e ITIL."
+  },
+  {
+    "id": 195,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "O que é o PDTIC (Plano Diretor de TIC) exigido na APF?",
+    "options": [
+      "Protocolo de comunicação de dados",
+      "Documento que define planejamento estratégico de TIC alinhado aos objetivos do órgão",
+      "Software de gestão de projetos",
+      "Norma de segurança cibernética"
+    ],
+    "answer": 1,
+    "justification": "O PDTIC é instrumento de planejamento de TIC que alinha os investimentos em TI às estratégias institucionais do órgão, sendo exigido pela legislação federal."
+  },
+  {
+    "id": 196,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A ética profissional em TI exige do profissional:",
+    "options": [
+      "Compartilhar senhas de clientes com terceiros",
+      "Guardar sigilo sobre informações confidenciais dos clientes e sistemas",
+      "Instalar software sem licença para reduzir custos",
+      "Ignorar vulnerabilidades encontradas"
+    ],
+    "answer": 1,
+    "justification": "O profissional de TI deve guardar sigilo, agir com integridade, respeitar privacidade dos usuários, relatar vulnerabilidades responsavelmente e seguir as leis aplicáveis."
+  },
+  {
+    "id": 197,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O disclosure responsável de vulnerabilidades (responsible disclosure) consiste em:",
+    "options": [
+      "Publicar imediatamente a vulnerabilidade nas redes sociais",
+      "Notificar o fabricante/responsável e dar prazo para correção antes de divulgar publicamente",
+      "Explorar a vulnerabilidade para provar sua existência",
+      "Vender a vulnerabilidade ao maior ofertante"
+    ],
+    "answer": 1,
+    "justification": "Responsible disclosure é a prática ética de notificar o responsável pelo sistema sobre uma vulnerabilidade encontrada, aguardando a correção antes de divulgá-la publicamente."
+  },
+  {
+    "id": 198,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O que é assédio digital ou cyberbullying segundo a legislação brasileira?",
+    "options": [
+      "Uso excessivo de redes sociais",
+      "Ato de intimidar, humilhar ou agredir repetidamente alguém por meios digitais, tipificado pela Lei 13.185/2015",
+      "Propaganda enganosa na internet",
+      "Uso de bots em redes sociais"
+    ],
+    "answer": 1,
+    "justification": "A Lei 13.185/2015 institui o Programa de Combate à Intimidação Sistemática (Antibullying), incluindo o cyberbullying praticado por meios eletrônicos."
+  },
+  {
+    "id": 199,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O Estatuto da Criança e do Adolescente (ECA) em relação a crimes digitais:",
+    "options": [
+      "Não aborda crimes digitais",
+      "Criminaliza a divulgação de pornografia infantil pela internet (art. 241-A)",
+      "Apenas regula o tempo de uso de internet",
+      "Proíbe acesso de menores à internet"
+    ],
+    "answer": 1,
+    "justification": "O art. 241-A do ECA (incluído pela Lei 11.829/2008) criminaliza a divulgação, publicação e transmissão de cenas de sexo explícito envolvendo crianças pela internet."
+  },
+  {
+    "id": 200,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "A responsabilidade civil dos provedores de internet por conteúdo de terceiros, segundo o Marco Civil, é:",
+    "options": [
+      "Responsabilidade objetiva desde que notificados",
+      "Os provedores de aplicação só respondem após descumprirem ordem judicial de remoção",
+      "Sempre solidária com o usuário",
+      "Sem responsabilidade em qualquer hipótese"
+    ],
+    "answer": 1,
+    "justification": "O Marco Civil (art. 19) prevê que o provedor de aplicações só pode ser responsabilizado civilmente por conteúdo de terceiros se não cumprir ordem judicial de remoção (regra geral)."
+  },
+  {
+    "id": 201,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "O que estabelece a PNSI (Política Nacional de Segurança da Informação, Decreto 9.637/2018)?",
+    "options": [
+      "Regulamenta a LGPD para o setor público",
+      "Define objetivos estratégicos e ações de segurança da informação para o Poder Executivo Federal",
+      "Institui a ANPD",
+      "Regulamenta licitações de TI"
+    ],
+    "answer": 1,
+    "justification": "A PNSI estabelece princípios, objetivos e instrumentos de governança para a segurança da informação no âmbito do Poder Executivo Federal."
+  },
+  {
+    "id": 202,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "A falsificação de documento digital é crime tipificado no:",
+    "options": [
+      "Marco Civil da Internet",
+      "Código Penal (art. 297 e seguintes, com equiparação pela Lei 12.737/2012)",
+      "LGPD",
+      "Estatuto do Servidor Público"
+    ],
+    "answer": 1,
+    "justification": "A falsificação de documento público ou particular abrange documentos digitais, conforme Código Penal. A Lei 12.737/2012 tipificou crimes específicos de informática."
+  },
+  {
+    "id": 203,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O que é o direito à portabilidade de dados garantido pela LGPD?",
+    "options": [
+      "Direito de levar o celular para outros países",
+      "Direito do titular de receber seus dados em formato estruturado e transferi-los a outro fornecedor",
+      "Direito de acessar dados de terceiros",
+      "Direito de apagar todos os dados pessoais imediatamente"
+    ],
+    "answer": 1,
+    "justification": "A portabilidade (art. 18, V, LGPD) permite ao titular solicitar seus dados em formato interoperável para transferência a outro controlador, promovendo concorrência e autonomia."
+  },
+  {
+    "id": 204,
+    "category": "Legislação e Ética",
+    "difficulty": "Médio",
+    "question": "O princípio da finalidade na LGPD determina que:",
+    "options": [
+      "Dados podem ser usados para qualquer finalidade após coletados",
+      "Os dados pessoais só podem ser tratados para as finalidades específicas e legítimas informadas ao titular",
+      "Finalidades podem ser alteradas sem comunicação",
+      "Dados anonimizados têm finalidade ilimitada"
+    ],
+    "answer": 1,
+    "justification": "Finalidade: os dados só podem ser tratados para fins específicos, legítimos, explícitos e informados ao titular, sendo vedado tratamento incompatível com essas finalidades."
+  },
+  {
+    "id": 205,
+    "category": "Legislação e Ética",
+    "difficulty": "Difícil",
+    "question": "Qual é a sanção máxima prevista pela LGPD para infrações graves?",
+    "options": [
+      "Multa de até R$ 1 milhão",
+      "Multa de até 2% do faturamento, limitada a R$ 50 milhões por infração",
+      "Suspensão do CNPJ",
+      "Reclusão dos dirigentes"
+    ],
+    "answer": 1,
+    "justification": "A LGPD prevê multa simples de até 2% do faturamento no último exercício, limitada a R$ 50 milhões por infração. Outras sanções: advertência, publicização, bloqueio/eliminação de dados."
+  },
+  {
+    "id": 206,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Assinale a alternativa em que todas as palavras estão corretamente acentuadas, conforme o Acordo Ortográfico vigente:",
+    "options": [
+      "saúde, freqüência, pára (verbo)",
+      "saúde, frequência, para (preposição)",
+      "saúde, freqüência, para (preposição)",
+      "saúde, frequência, pára (verbo)"
+    ],
+    "answer": 1,
+    "justification": "Pelo Acordo Ortográfico de 1990: 'frequência' não tem trema; 'pára' (verbo) perdeu o acento diferencial; 'saúde' mantém o acento por ser paroxítona com ditongo tônico."
+  },
+  {
+    "id": 207,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Em 'O servidor entregou os documentos ao diretor', o sujeito da oração é:",
+    "options": [
+      "os documentos",
+      "ao diretor",
+      "O servidor",
+      "entregou"
+    ],
+    "answer": 2,
+    "justification": "Sujeito é o termo sobre o qual se faz uma declaração. 'O servidor' é quem pratica a ação de entregar, sendo o sujeito simples da oração."
+  },
+  {
+    "id": 208,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Qual das alternativas apresenta um substantivo COLETIVO?",
+    "options": [
+      "bando, cardume, alcateia",
+      "rápido, lento, veloz",
+      "correr, saltar, pular",
+      "aqui, lá, além"
+    ],
+    "answer": 0,
+    "justification": "Bando (de pássaros), cardume (de peixes) e alcateia (de lobos) são substantivos coletivos, que designam conjunto de seres da mesma espécie."
+  },
+  {
+    "id": 209,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "A frase 'Ninguém compareceu à reunião' apresenta sujeito:",
+    "options": [
+      "Simples",
+      "Composto",
+      "Indeterminado",
+      "Inexistente (oração sem sujeito)"
+    ],
+    "answer": 0,
+    "justification": "'Ninguém' é pronome indefinido que funciona como sujeito simples (um único núcleo). Não é indeterminado porque está expresso."
+  },
+  {
+    "id": 210,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Na oração 'Choveu muito ontem', o sujeito é:",
+    "options": [
+      "muito",
+      "ontem",
+      "Choveu",
+      "Inexistente (oração sem sujeito)"
+    ],
+    "answer": 3,
+    "justification": "Verbos que indicam fenômenos da natureza (chover, nevar, trovejar) são usados impessoalmente, sem sujeito — oração sem sujeito."
+  },
+  {
+    "id": 211,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "A palavra 'infelizmente' classifica-se como:",
+    "options": [
+      "Adjetivo",
+      "Advérbio",
+      "Substantivo",
+      "Conjunção"
+    ],
+    "answer": 1,
+    "justification": "'Infelizmente' é advérbio de modo, pois modifica o verbo ou a oração inteira, indicando a maneira como algo ocorre."
+  },
+  {
+    "id": 212,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Identifique o antônimo de 'prolixo':",
+    "options": [
+      "Detalhado",
+      "Verboso",
+      "Conciso",
+      "Redundante"
+    ],
+    "answer": 2,
+    "justification": "'Prolixo' significa extenso, demorado, que usa mais palavras que o necessário. Seu antônimo é 'conciso', que é breve e preciso."
+  },
+  {
+    "id": 213,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "A palavra 'farmacêutico' é um exemplo de:",
+    "options": [
+      "Paroxítona",
+      "Oxítona",
+      "Proparoxítona",
+      "Monossílaba tônica"
+    ],
+    "answer": 2,
+    "justification": "'Farmacêutico' tem acento tônico na antepenúltima sílaba (far-MA-cêu-ti-co? Não — far-ma-CÊU-ti-co). Proparoxítonas são acentuadas na antepenúltima sílaba. Todas são acentuadas graficamente."
+  },
+  {
+    "id": 214,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Qual das alternativas apresenta erro de concordância verbal?",
+    "options": [
+      "Os alunos chegaram cedo",
+      "Faz dois anos que não o vejo",
+      "Existem muitas vagas disponíveis",
+      "Fazem três anos que ela partiu"
+    ],
+    "answer": 3,
+    "justification": "Com 'fazer' indicando tempo decorrido, o verbo é impessoal e fica no singular: 'Faz três anos que ela partiu'. 'Fazem' (plural) é incorreto."
+  },
+  {
+    "id": 215,
+    "category": "Língua Portuguesa",
+    "difficulty": "Fácil",
+    "question": "Em qual alternativa o uso da vírgula está INCORRETO?",
+    "options": [
+      "João, venha cá!",
+      "O prefeito, satisfeito, assinou o decreto",
+      "Comprei pães, leite, e manteiga",
+      "Embora chovesse, saímos"
+    ],
+    "answer": 2,
+    "justification": "Não se usa vírgula antes da última conjunção 'e' quando ela conecta termos da mesma natureza em uma enumeração simples. O correto é: 'pães, leite e manteiga'."
+  },
+  {
+    "id": 216,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Assinale a alternativa em que ocorre a figura de linguagem METÁFORA:",
+    "options": [
+      "Ela tem olhos de estrela",
+      "As pedras gritavam de dor",
+      "Pedro é um leão em campo",
+      "A vida é uma viagem sem destino certo"
+    ],
+    "answer": 2,
+    "justification": "'Pedro é um leão em campo' é metáfora: compara Pedro a um leão sem usar 'como' ou 'que nem' (que seria símile/comparação). Há identificação direta entre os termos."
+  },
+  {
+    "id": 217,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O conectivo 'embora' estabelece relação de:",
+    "options": [
+      "Causa",
+      "Concessão",
+      "Condição",
+      "Conclusão"
+    ],
+    "answer": 1,
+    "justification": "'Embora' é conjunção subordinativa concessiva: introduz uma oração que admite um obstáculo que não impede a ocorrência da oração principal."
+  },
+  {
+    "id": 218,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Na frase 'Espero que você passe no concurso', o modo verbal na oração subordinada é:",
+    "options": [
+      "Indicativo",
+      "Subjuntivo",
+      "Imperativo",
+      "Infinitivo"
+    ],
+    "answer": 1,
+    "justification": "'passe' está no subjuntivo presente, modo usado para expressar hipótese, desejo ou incerteza — comum em orações subordinadas substantivas após verbos de vontade."
+  },
+  {
+    "id": 219,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Assinale a alternativa em que a regência verbal está CORRETA:",
+    "options": [
+      "Aspiramos a uma vida melhor",
+      "Visamos a cargos mais altos",
+      "Prefiro o café ao chá",
+      "Todas estão corretas"
+    ],
+    "answer": 3,
+    "justification": "Todas estão corretas: 'aspirar a' (algo), 'visar a' (objetivo), 'preferir...a...' (sem 'mais', 'do que' ou 'em vez de')."
+  },
+  {
+    "id": 220,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Qual alternativa apresenta a crase OBRIGATÓRIA?",
+    "options": [
+      "Entregue o relatório a ela",
+      "Refiro-me a questões técnicas",
+      "Fomos a Lisboa no verão passado",
+      "Dedicou sua obra à pátria"
+    ],
+    "answer": 3,
+    "justification": "Crase ocorre quando 'a' (preposição) + 'a' (artigo feminino). 'à pátria' = 'a' (preposição exigida por 'dedicar') + 'a' (artigo de 'pátria'). 'a ela' e 'a questões' não admitem artigo."
+  },
+  {
+    "id": 221,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O que é um período composto por subordinação?",
+    "options": [
+      "Período com duas orações independentes ligadas por conjunção coordenativa",
+      "Período com uma oração principal e pelo menos uma subordinada dependente",
+      "Período com apenas uma oração",
+      "Período com orações paralelas sem hierarquia"
+    ],
+    "answer": 1,
+    "justification": "Período composto por subordinação tem uma oração principal e orações subordinadas (que dependem gramaticalmente da principal), classificadas em substantivas, adjetivas ou adverbiais."
+  },
+  {
+    "id": 222,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Na frase 'O candidato que estudou mais foi aprovado', a oração 'que estudou mais' é:",
+    "options": [
+      "Oração subordinada substantiva subjetiva",
+      "Oração subordinada adjetiva restritiva",
+      "Oração subordinada adverbial causal",
+      "Oração coordenada explicativa"
+    ],
+    "answer": 1,
+    "justification": "A oração 'que estudou mais' funciona como adjetivo restringindo 'o candidato' (restringe, sem vírgulas) — oração subordinada adjetiva restritiva."
+  },
+  {
+    "id": 223,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O uso do 'porque', 'por que', 'por quê' e 'porquê' é distinto. Em 'Não sei por que ele faltou', o uso é:",
+    "options": [
+      "'porque' — conjunção causal",
+      "'por que' — pronome interrogativo indireto",
+      "'por quê' — pronome interrogativo direto no fim",
+      "'porquê' — substantivo"
+    ],
+    "answer": 1,
+    "justification": "'por que' (separado, sem acento) é usado em perguntas indiretas (não sei por que = não sei qual a razão). 'porque' (junto) é conjunção causal/explicativa."
+  },
+  {
+    "id": 224,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A palavra 'mau' difere de 'mal' porque:",
+    "options": [
+      "'mau' é advérbio; 'mal' é adjetivo",
+      "'mau' é adjetivo (oposto de bom); 'mal' é advérbio (oposto de bem)",
+      "São sinônimos perfeitos",
+      "'mal' é exclusivamente substantivo"
+    ],
+    "answer": 1,
+    "justification": "'Mau' é adjetivo, antônimo de 'bom' (ex: mau funcionário). 'Mal' é advérbio, antônimo de 'bem' (ex: ele trabalha mal), ou substantivo (o mal e o bem)."
+  },
+  {
+    "id": 225,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Assinale a alternativa com ERRO de grafia:",
+    "options": [
+      "exceção",
+      "excesso",
+      "excessão",
+      "extensão"
+    ],
+    "answer": 2,
+    "justification": "'Excessão' está incorreto. A forma correta é 'exceção' (do latim exceptione). 'Excesso' e 'extensão' estão corretos."
+  },
+  {
+    "id": 226,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Qual figura de linguagem consiste na repetição de sons consonantais no início de palavras próximas?",
+    "options": [
+      "Assonância",
+      "Aliteração",
+      "Eufemismo",
+      "Antítese"
+    ],
+    "answer": 1,
+    "justification": "Aliteração é a figura de harmonia que repete sons consonantais (ex: 'Vozes veladas, veludosas vozes' — Eugênio de Castro). Assonância repete sons vocálicos."
+  },
+  {
+    "id": 227,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A voz passiva analítica de 'O diretor assinou o documento' é:",
+    "options": [
+      "O documento foi assinado pelo diretor",
+      "O documento assinou-se",
+      "O diretor teve o documento assinado",
+      "O documento era assinado"
+    ],
+    "answer": 0,
+    "justification": "Voz passiva analítica: objeto direto → sujeito paciente + verbo ser/estar/ficar + particípio + agente da passiva (pelo/pela). 'O documento foi assinado pelo diretor.'"
+  },
+  {
+    "id": 228,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Qual é a função sintática do termo sublinhado em 'Ele considera o trabalho difícil'? (o trabalho)",
+    "options": [
+      "Sujeito",
+      "Objeto direto",
+      "Objeto indireto",
+      "Complemento nominal"
+    ],
+    "answer": 1,
+    "justification": "'O trabalho' é objeto direto do verbo transitivo direto 'considera'. 'Difícil' é predicativo do objeto."
+  },
+  {
+    "id": 229,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A norma culta da língua exige que, na colocação pronominal, o pronome átono NÃO deve iniciar frase. Assinale a frase que respeita essa norma:",
+    "options": [
+      "Me diga a verdade",
+      "Diga-me a verdade",
+      "Me disseram que você viria",
+      "Se não me ajudar, parta"
+    ],
+    "answer": 1,
+    "justification": "Em início de frase, o pronome não deve aparecer antes do verbo (próclise em início de período é erro na norma culta escrita). 'Diga-me' (ênclise) é o uso correto."
+  },
+  {
+    "id": 230,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O eufemismo é uma figura de linguagem que:",
+    "options": [
+      "Exagera uma ideia além do real",
+      "Suaviza uma expressão desagradável ou chocante",
+      "Usa palavras de sentido oposto",
+      "Repete a mesma ideia com palavras diferentes"
+    ],
+    "answer": 1,
+    "justification": "Eufemismo substitui expressão dura ou chocante por outra mais suave (ex: 'ele passou desta para melhor' no lugar de 'ele morreu')."
+  },
+  {
+    "id": 231,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Sobre a nova ortografia (Acordo de 1990), é INCORRETO afirmar:",
+    "options": [
+      "O trema foi eliminado em palavras de origem portuguesa",
+      "Palavras como 'frequência' e 'tranquilo' perderam o trema",
+      "O acento diferencial em 'pôr' (verbo) foi mantido",
+      "O acento diferencial em 'para' (verbo parar) foi eliminado"
+    ],
+    "answer": 2,
+    "justification": "O acento diferencial em 'pôr' (verbo) FOI MANTIDO para diferenciá-lo de 'por' (preposição). A afirmativa C está incorreta pois diz que foi 'eliminado'."
+  },
+  {
+    "id": 232,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Em 'Quanto mais estuda, mais aprende', a relação de sentido estabelecida é:",
+    "options": [
+      "Concessão",
+      "Proporcionalidade",
+      "Condição",
+      "Oposição"
+    ],
+    "answer": 1,
+    "justification": "A estrutura 'quanto mais... mais...' estabelece relação de proporcionalidade: uma ação cresce na proporção de outra. Oração subordinada adverbial proporcional."
+  },
+  {
+    "id": 233,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "A ironia como figura de linguagem consiste em:",
+    "options": [
+      "Exagerar as qualidades de algo",
+      "Dizer o contrário do que se pensa com intenção crítica ou humorística",
+      "Suavizar uma realidade desagradável",
+      "Personificar elementos inanimados"
+    ],
+    "answer": 1,
+    "justification": "Ironia usa palavras com sentido oposto ao que se quer dizer, geralmente com intenção crítica, satírica ou humorística, com tom revelado pelo contexto."
+  },
+  {
+    "id": 234,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "O que é zeugma como figura de linguagem?",
+    "options": [
+      "Repetição enfática de um termo",
+      "Omissão de um termo já expresso anteriormente, subentendido pelo contexto",
+      "Colocação de termos em posição invertida",
+      "Uso de palavras de sons semelhantes"
+    ],
+    "answer": 1,
+    "justification": "Zeugma é a elipse de um termo já mencionado: 'Ele gosta de música; ela, de teatro' (subentende 'gosta' na segunda oração)."
+  },
+  {
+    "id": 235,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Assinale a alternativa em que a concordância nominal está CORRETA:",
+    "options": [
+      "É necessário bastantes recursos",
+      "Elas ficaram meio confusas com a situação",
+      "Segue em anexo os documentos solicitados",
+      "A situação estava bastante crítica"
+    ],
+    "answer": 3,
+    "justification": "'Bastante' como advérbio (modifica adjetivo) é invariável: 'bastante crítica'. 'Meio' como advérbio também é invariável: 'meio confusas' está errado; 'meio confusas'... na verdade 'meio' advérbio é invariável logo 'meio confusas' seria o erro (deveria ser 'meio confusas'). 'Bastante crítica' está correto pois 'bastante' é advérbio invariável."
+  },
+  {
+    "id": 236,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Qual recurso coesivo é empregado em 'O servidor recebeu o ofício e o encaminhou ao chefe'?",
+    "options": [
+      "Coesão por conjunção aditiva apenas",
+      "Coesão por referência pronominal: 'o' retoma 'o ofício'",
+      "Coesão lexical por sinonímia",
+      "Coesão por elipse do sujeito"
+    ],
+    "answer": 1,
+    "justification": "'O' (pronome oblíquo) retoma anaforicamente 'o ofício', estabelecendo coesão referencial por substituição pronominal — recurso central da coesão textual."
+  },
+  {
+    "id": 237,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "A coerência textual está relacionada a:",
+    "options": [
+      "Uso correto da gramática normativa",
+      "Unidade de sentido, lógica e não contradição das ideias do texto",
+      "Emprego adequado dos sinais de pontuação",
+      "Ortografia e acentuação corretas"
+    ],
+    "answer": 1,
+    "justification": "Coerência é a propriedade que faz do texto uma unidade de sentido: as ideias devem ser logicamente encadeadas, sem contradições, respeitando conhecimento de mundo e contexto."
+  },
+  {
+    "id": 238,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O prefixo 'anti-' em 'antivírus' expressa ideia de:",
+    "options": [
+      "Favor, apoio",
+      "Oposição, contra",
+      "Repetição",
+      "Negação simples"
+    ],
+    "answer": 1,
+    "justification": "O prefixo 'anti-' indica oposição, contrário (antivírus = contra vírus; anti-inflamatório = contra inflamação)."
+  },
+  {
+    "id": 239,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Em qual alternativa o uso de 'há' e 'a' está CORRETO?",
+    "options": [
+      "Há dez anos atrás, a escola não existia",
+      "Faz há dez anos que estudamos",
+      "Há dez anos, a escola foi fundada",
+      "Daqui a há dois anos estaremos formados"
+    ],
+    "answer": 2,
+    "justification": "'Há' indica tempo passado (faz que): 'Há dez anos (=faz dez anos), a escola foi fundada'. 'A' indica tempo futuro ou distância: 'daqui a dois anos'. 'Há...atrás' é redundante."
+  },
+  {
+    "id": 240,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A regência do verbo 'obedecer' exige:",
+    "options": [
+      "Objeto direto: 'obedecer alguém'",
+      "Objeto indireto: 'obedecer a alguém'",
+      "Pode ser usado sem complemento",
+      "Objeto direto e indireto simultaneamente"
+    ],
+    "answer": 1,
+    "justification": "'Obedecer' é transitivo indireto: exige preposição 'a'. Correto: 'obedecer às ordens', 'obedecer ao chefe'. Errado: 'obedecer alguém' (sem preposição)."
+  },
+  {
+    "id": 241,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A sinonímia consiste no uso de:",
+    "options": [
+      "Palavras de sentido oposto",
+      "Palavras de sentido semelhante que podem substituir umas às outras",
+      "Palavras de mesma origem",
+      "Palavras de pronúncia igual e grafia diferente"
+    ],
+    "answer": 1,
+    "justification": "Sinônimos são palavras de significados semelhantes (não necessariamente idênticos): 'feliz/contente', 'belo/bonito'. São usados para evitar repetição e criar coesão lexical."
+  },
+  {
+    "id": 242,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A interpretação de texto requer que o leitor:",
+    "options": [
+      "Apenas decodifique as palavras literalmente",
+      "Ative conhecimentos prévios, interprete implícitos e construa sentido além do literal",
+      "Memorize o texto integralmente",
+      "Ignore o contexto de produção"
+    ],
+    "answer": 1,
+    "justification": "Interpretar exige: compreensão literal + inferências (implícitos) + contextualização + relação com conhecimento de mundo, indo além da mera decodificação."
+  },
+  {
+    "id": 243,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O que é intertextualidade?",
+    "options": [
+      "Referência a elementos externos ao texto como imagens",
+      "Relação que um texto estabelece com outros textos, citando, parodiando ou aludindo a eles",
+      "Divisão de um texto em partes",
+      "Uso de linguagem técnica em textos literários"
+    ],
+    "answer": 1,
+    "justification": "Intertextualidade é o diálogo entre textos: quando um texto faz referência (citação, alusão, paródia, paráfrase) a outro texto anterior."
+  },
+  {
+    "id": 244,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O discurso direto se caracteriza por:",
+    "options": [
+      "Narrar a fala do personagem indiretamente",
+      "Transcrever literalmente a fala do personagem, com verbos dicendi e pontuação (dois-pontos, aspas ou travessão)",
+      "Misturar narrador e personagem",
+      "Omitir completamente as falas"
+    ],
+    "answer": 1,
+    "justification": "Discurso direto reproduz fielmente as palavras do personagem, geralmente introduzido por verbos dicendi (disse, perguntou) e sinalizado por dois-pontos, aspas ou travessão."
+  },
+  {
+    "id": 245,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "O que é catáfora na coesão textual?",
+    "options": [
+      "Referência a um elemento mencionado anteriormente no texto",
+      "Referência antecipada a um elemento que será mencionado adiante no texto",
+      "Omissão de elemento recuperável pelo contexto",
+      "Substituição por sinônimo"
+    ],
+    "answer": 1,
+    "justification": "Catáfora é referência prospectiva: o elemento referencial aponta para frente, para algo que ainda será mencionado. Ex: 'Isto é fundamental: estudar todos os dias.' ('isto' retoma prospectivamente 'estudar')."
+  },
+  {
+    "id": 246,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Em relação à tipologia textual, qual é a característica predominante do texto dissertativo-argumentativo?",
+    "options": [
+      "Narrar eventos em sequência cronológica",
+      "Defender um ponto de vista com argumentos e evidências, buscando persuadir o leitor",
+      "Descrever características de pessoas ou lugares",
+      "Instruir sobre como realizar uma tarefa"
+    ],
+    "answer": 1,
+    "justification": "O texto dissertativo-argumentativo apresenta uma tese, desenvolve argumentos para sustentá-la e conclui reafirmando a posição, com objetivo de persuadir o leitor."
+  },
+  {
+    "id": 247,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Sobre os conectivos, qual a função de 'conquanto'?",
+    "options": [
+      "Indica causa",
+      "Indica concessão",
+      "Indica tempo",
+      "Indica condição"
+    ],
+    "answer": 1,
+    "justification": "'Conquanto' é conjunção subordinativa concessiva (sinônimo de 'embora', 'ainda que', 'mesmo que'), introduzindo uma oração que admite um obstáculo sem impedir a ação principal."
+  },
+  {
+    "id": 248,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "A prosopopeia (ou personificação) é a figura que:",
+    "options": [
+      "Exagera uma característica além do real",
+      "Atribui características humanas a seres inanimados, abstratos ou animais irracionais",
+      "Coloca em contraste ideias opostas",
+      "Usa palavras de sons semelhantes"
+    ],
+    "answer": 1,
+    "justification": "Prosopopeia/personificação atribui ações, sentimentos ou qualidades humanas a seres que não as possuem. Ex: 'O vento uivava de raiva entre as árvores.'"
+  },
+  {
+    "id": 249,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Na análise da estrutura do período: 'Caso não haja vagas, o processo seletivo será suspenso', a oração sublinhada é:",
+    "options": [
+      "Subordinada adverbial condicional",
+      "Subordinada substantiva subjetiva",
+      "Coordenada adversativa",
+      "Subordinada adjetiva explicativa"
+    ],
+    "answer": 0,
+    "justification": "'Caso não haja vagas' é introduzida por 'caso' (conjunção condicional), funcionando como oração subordinada adverbial condicional."
+  },
+  {
+    "id": 250,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "O que é o pleonasmo vicioso, e como se distingue do pleonasmo literário?",
+    "options": [
+      "São sinônimos, não há distinção",
+      "Pleonasmo vicioso é redundância desnecessária (erro); literário é ênfase intencional usada como recurso estilístico",
+      "Vicioso é o pleonasmo em prosa; literário é o em poesia",
+      "Pleonasmo vicioso é aceito na norma culta; literário, não"
+    ],
+    "answer": 1,
+    "justification": "Pleonasmo vicioso é redundância sem valor estilístico (ex: 'subir para cima'). Literário é repetição intencional para ênfase expressiva (ex: 'vim ver o ver' — Camões), aceita como recurso de estilo."
+  },
+  {
+    "id": 251,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Assinale a frase em que o acento grave indicando crase está INCORRETAMENTE empregado:",
+    "options": [
+      "Fui à reunião ontem",
+      "Refiro-me à proposta apresentada",
+      "Vou à São Paulo amanhã",
+      "Dediquei meu trabalho à professora"
+    ],
+    "answer": 2,
+    "justification": "Não se usa crase antes de nomes de cidades que não são precedidos de artigo. O correto é 'Vou a São Paulo'. Exceção: quando o artigo é parte integrante do nome (ex: 'Vou à Bahia')."
+  },
+  {
+    "id": 252,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "Em relação à colocação pronominal, a próclise é obrigatória quando:",
+    "options": [
+      "O verbo inicia a frase",
+      "Há palavras atrativas como negação, pronomes relativos, conjunções subordinativas, advérbios",
+      "O verbo é monossilábico",
+      "Sempre com verbos no infinitivo"
+    ],
+    "answer": 1,
+    "justification": "Próclise (pronome antes do verbo) é obrigatória quando há atratores: palavras negativas (não, nada), pronomes relativos (que, quem), advérbios e conjunções subordinativas."
+  },
+  {
+    "id": 253,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "O período 'O servidor faltou; por isso, sofreu advertência' contém orações:",
+    "options": [
+      "Subordinadas causais",
+      "Coordenadas: a 1ª é declarativa, a 2ª é conclusiva",
+      "Subordinadas consecutivas",
+      "Coordenadas adversativas"
+    ],
+    "answer": 1,
+    "justification": "'Por isso' é locução conjuntiva coordenativa conclusiva (liga orações independentes indicando conclusão). As orações são coordenadas, não subordinadas."
+  },
+  {
+    "id": 254,
+    "category": "Língua Portuguesa",
+    "difficulty": "Médio",
+    "question": "A palavra 'apenas' classifica-se como:",
+    "options": [
+      "Conjunção",
+      "Preposição",
+      "Advérbio de restrição",
+      "Pronome indefinido"
+    ],
+    "answer": 2,
+    "justification": "'Apenas' é advérbio de restrição/limitação (equivale a 'somente', 'só'). Modifica verbos, adjetivos ou a oração inteira."
+  },
+  {
+    "id": 255,
+    "category": "Língua Portuguesa",
+    "difficulty": "Difícil",
+    "question": "Qual dos vocábulos abaixo é um heterossêmico (falso cognato entre português e espanhol ou outro idioma)?",
+    "options": [
+      "data",
+      "borracha",
+      "policia",
+      "embaraço"
+    ],
+    "answer": 1,
+    "justification": "'Borracha' em português significa o material elástico (látex). Em espanhol, 'borracho' significa bêbado. São falsos cognatos (heterossêmicos) entre os idiomas."
+  }
+]
